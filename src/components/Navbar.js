@@ -32,7 +32,7 @@ class Navbar extends Component {
                 <div className="logo">
                     <a href="#">Port<span>folio.</span></a>
                 </div>
-            <ul>
+            <ul className="menu">
 
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
