@@ -7,13 +7,75 @@
     text-decoration: none;
 }
 
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
 /*navbar Styling*/
 .navbar{
     position: fixed;
     width: 100%;
-    background-color: crimson;
+    padding: 15px 0;
+    background-color: burlywood;
+    font-family: 'Balsamiq';
+    /*배경화면 올리려고*/
+    margin-top: 20vh;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    color: black;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block ;
 }
 
 .navbar .menu li a{
     color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
 }
+
+/*header Styling*/
+
+.header{
+    display: flex;
+    background: url("./images/main.jpg") no-repeat center;
+    height: 120vh;
+    color: black;
+    min-height: 500px;
+    font-family: 'Balsamiq';
+     /*배경화면 올리려고*/
+     margin-top: -20vh;
+}
+
+.header .max-width{
+    margin: auto 40px auto auto;
+}
+
+.header .header-content .text_1{
+    font-size: 30px;
+}
+
+.header .header-content .text_2{
+    font-size: 75px;
+    font-weight: 900;
+
+    }
+
+.header .header-content .text_3{
+    font-size: 40px;
+    margin: 5px 0;
+        }

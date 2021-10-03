@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import { Link, animateScroll as scroll } from "react-scroll";
 import $ from "jquery";
+import logo from '../images/logo_juhwan.png'
 // import { FaBars } from 'react-icons/fa';
 
 class Navbar extends Component {
@@ -30,8 +31,9 @@ class Navbar extends Component {
             
             <div className="max-width">
                 <div className="logo">
-                    <a href="#">Port<span>folio.</span></a>
+                <a href="#">Port<span>folio.</span></a>
                 </div>
+               
             <ul className="menu">
 
                 <li><a href="#">Home</a></li>
