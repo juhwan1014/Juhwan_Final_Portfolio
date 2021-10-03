@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 // import { Link, animateScroll as scroll } from "react-scroll";
 import $ from "jquery";
 import logo from '../images/logo_juhwan.png'
-import { FaBars } from 'react-icons/fa';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMugHot} from '@fortawesome/free-solid-svg-icons'
+import { faBars} from '@fortawesome/free-solid-svg-icons'
+// import { FaBars } from 'react-icons/fa';
 // import AiFillAlipayCircle  from "react-icons/ai";
 
 
@@ -33,9 +36,9 @@ class Navbar extends Component {
             
             <div className="max-width">
                 <div className="logo">
-                    <i className="fas fa-bars"></i>
-                    <a href="#"><FaBars /></a>
-                {/* <a href="#">Port<span>folio.</span></a> */}
+                {/* <FontAwesomeIcon icon={faMugHot} /> */}
+                    {/* <a href="#"><FaBars /></a> */}
+                <a href="#">Port<span>folio.</span> <FontAwesomeIcon icon={faMugHot} /></a>
                 {/* <a href="#"><img src={logo}></img></a> */}
                 </div>
                
@@ -46,11 +49,11 @@ class Navbar extends Component {
                 <li><a href="#">Experience</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Contact</a></li>
-               
 
             </ul>
 
             <div className="menu-btn">
+            <h3><FontAwesomeIcon icon={faBars} /></h3>
             {/* <h3> <FaBars/> </h3> */}
             </div>
 

@@ -30,7 +30,7 @@
     justify-content: space-between;
 }
 
-.navbar .logo{
+.navbar .max-width .logo{
     color: black;
     font-size: 35px;
     font-weight: 900;
