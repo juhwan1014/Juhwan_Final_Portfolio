@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 // import { Link, animateScroll as scroll } from "react-scroll";
 import $ from "jquery";
 import logo from '../images/logo_juhwan.png'
-// import { FaBars } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
+// import AiFillAlipayCircle  from "react-icons/ai";
+
 
 class Navbar extends Component {
     state = {  }
@@ -31,7 +33,10 @@ class Navbar extends Component {
             
             <div className="max-width">
                 <div className="logo">
-                <a href="#">Port<span>folio.</span></a>
+                    <i className="fas fa-bars"></i>
+                    <a href="#"><FaBars /></a>
+                {/* <a href="#">Port<span>folio.</span></a> */}
+                {/* <a href="#"><img src={logo}></img></a> */}
                 </div>
                
             <ul className="menu">

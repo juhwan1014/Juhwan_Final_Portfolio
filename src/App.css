@@ -17,8 +17,8 @@
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 15px 0;
-    background-color: burlywood;
+    padding: 30px 0;
+    background-color: none;
     font-family: 'Balsamiq';
     /*배경화면 올리려고*/
     margin-top: 20vh;
@@ -35,7 +35,9 @@
     font-size: 35px;
     font-weight: 900;
 }
-
+.navbar .menu{
+    margin: auto 0 auto auto;
+}
 .navbar .menu li{
     list-style: none;
     display: inline-block ;
@@ -46,6 +48,11 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu li a:hover{
+    color: crimson;
 }
 
 /*header Styling*/
@@ -79,3 +86,8 @@
     font-size: 40px;
     margin: 5px 0;
         }
+
+.header .header-content .text_3 span{
+    color: crimson;
+    font-weight: 500;
+}
