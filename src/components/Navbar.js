@@ -49,6 +49,7 @@ class Navbar extends Component {
                 <li><a href="#">Experience</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Contact</a></li>
+                <li><a href="#">Contact</a></li>
 
             </ul>
 
