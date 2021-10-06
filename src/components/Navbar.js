@@ -21,9 +21,9 @@ class Navbar extends Component {
         $(window).scroll(function(){
            
                     if(this.scrollY > 20){
-                          $('.navbar').addClass("sticky");
+                          $('.navbar').addClass("navColor");
                     } else {
-                        $('.navbar').removeClass("sticky");
+                        $('.navbar').removeClass("navColor");
                     }
                 })
         

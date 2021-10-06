@@ -5,6 +5,7 @@ class Header extends Component {
     render() {
         return (<div className='header'>
             <div className="max-width">
+            {/* <h1 className='heading-background'>POSSIBLE</h1> */}
                 <div className="header-content">
                     <div className="text_1">Hello, my name is</div>
                     <div className="text_2">Juhwan Moon</div>
@@ -12,6 +13,12 @@ class Header extends Component {
 
                 </div>
             </div>
+
+            {/* <p>asdasdadsasdakdkasmkankcnkdmaksndkkndksqndkqsndkqsndkqnskdnqskdnkqsndkqsndkqnsd
+                qskdnqksdnkqsndkqsndkqnskdnqskdnlkqsndlkqndkqnskdnqskldnqksndklqnsdklsqndkqnkdn
+                qskdnqlksdnkqlnsdkqnskdnqkslndkqlsndkqnsdkqnsdklqnsdklnqskdnqksndkqsndknqsdq
+                sqdnqsndklqsndklqnsdklq
+            </p> */}
         </div>);
     }
 }
