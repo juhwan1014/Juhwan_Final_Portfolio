@@ -26,8 +26,14 @@ class Navbar extends Component {
                         $('.navbar').removeClass("navColor");
                     }
                 })
+
+        $('.menu-btn').click(function(){
+            $('.navbar .menu').toggleClass("active");
+        })
         
       }
+
+
   
     render() { 
 

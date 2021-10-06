@@ -142,6 +142,38 @@
 }
 
 /*Responsive Media Query*/
+@media (max-width: 947px){
+    
+    .max-width{
+        padding: 0 50px;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    } 
+    .navbar .menu{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      left: -100%;
+      top: 0;
+      background: white;
+      text-align: center;
+      padding-top: 80px;
+    }
+    .navbar .menu.active{
+      left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+
+    }
+}
 
 
 /*about Page Styling*/
