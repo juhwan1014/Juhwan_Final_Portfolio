@@ -41,8 +41,13 @@
     background: crimson;
 }
 
-.navbar.navColor .logo a{
+.navbar.navColor .max-width .logo a{
     color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar.navColor .max-width .logo a:hover{
+    color: black;
 }
 
 .navbar .max-width{
@@ -52,16 +57,17 @@
 }
 
 .navbar .max-width .logo{
-    color: black;
+    /* color: black; */
     font-size: 35px;
     font-weight: 900;
 }
 .navbar .max-width .logo a{
     color: black;
+    transition: color 0.3s ease;
 }
-/* .navbar .max-width .logo a:hover{
+.navbar .max-width .logo a:hover{
     color: crimson;
-} */
+}
 .navbar .menu{
     margin: auto 0 auto auto;
 }
@@ -78,8 +84,24 @@
     transition: color 0.3s ease;
 }
 
+.navbar.navColor .menu li a{
+    color: white;
+}
+
 .navbar .menu li a:hover{
     color: crimson;
+}
+
+.navbar.navColor .menu li a:hover{
+    color: black;
+}
+
+/*menu button styling*/
+.menu-btn{
+    color: black;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
 }
 
 /*header Styling*/
@@ -118,6 +140,9 @@
     color: crimson;
     font-weight: 500;
 }
+
+/*Responsive Media Query*/
+
 
 /*about Page Styling*/
 
