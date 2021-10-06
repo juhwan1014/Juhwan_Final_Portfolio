@@ -31,10 +31,16 @@
 }
 
 .navbar .max-width .logo{
-    color: black;
+    color: blue;
     font-size: 35px;
     font-weight: 900;
 }
+.navbar .max-width .logo a{
+    color: black;
+}
+/* .navbar .max-width .logo a:hover{
+    color: crimson;
+} */
 .navbar .menu{
     margin: auto 0 auto auto;
 }

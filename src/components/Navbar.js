@@ -38,9 +38,10 @@ class Navbar extends Component {
                 <div className="logo">
                 {/* <FontAwesomeIcon icon={faMugHot} /> */}
                     {/* <a href="#"><FaBars /></a> */}
-                <a href="#">Port<span>folio.</span> <FontAwesomeIcon icon={faMugHot} /></a>
+                <a href="#">Portfolio <FontAwesomeIcon icon={faMugHot} /></a>
                 {/* <a href="#"><img src={logo}></img></a> */}
                 </div>
+              
                
             <ul className="menu">
 
