@@ -5,18 +5,30 @@ import logo from '../images/logo_juhwan.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMugHot} from '@fortawesome/free-solid-svg-icons'
 import { faBars} from '@fortawesome/free-solid-svg-icons'
+import { faTimes} from '@fortawesome/free-solid-svg-icons'
 // import { FaBars } from 'react-icons/fa';
 // import AiFillAlipayCircle  from "react-icons/ai";
 
 
+
+
 class Navbar extends Component {
-    state = {  }
+      
+    constructor(props){
+        super(props);
+        this.state = {
+            hamburgerToggle : false,
+        };
+    }
+
+
     // scrollToTop = () => {
     //     scroll.scrollToTop();
     // };
 
     componentDidMount() {
       
+        
        
         $(window).scroll(function(){
            
@@ -29,14 +41,23 @@ class Navbar extends Component {
 
         $('.menu-btn').click(function(){
             $('.navbar .menu').toggleClass("active");
+            $('faTimes').toggleClass("active");
         })
         
       }
-
+      
+      handleClick = event => {
+          this.setState({
+              hamburgerToggle: !this.state.hamburgerToggle,
+          });
+      };
 
   
     render() { 
 
+        
+        // const {hamburgerToggle} = this.state;
+        
 
         return (<nav className = "navbar">
             
@@ -61,7 +82,17 @@ class Navbar extends Component {
             </ul>
 
             <div className="menu-btn">
-            <h3><FontAwesomeIcon icon={faBars} /></h3>
+              
+           {/* <h3 onClick={this.handleClick}>{ hamburgerToggle ? 
+           <FontAwesomeIcon icon={faTimes} /> :
+               <FontAwesomeIcon icon={faBars} />
+           }
+               </h3> */}
+            <h3> <FontAwesomeIcon
+              onClick={this.handleClick}
+             icon={this.state.hamburgerToggle ? faTimes : faBars } /></h3>
+           
+                
             {/* <h3> <FaBars/> </h3> */}
             </div>
 
