@@ -90,7 +90,7 @@
 }
 
 .navbar .menu li a:hover{
-    color: crimson;
+    color: black;
 }
 
 .navbar.navColor .menu li a:hover{
@@ -244,10 +244,9 @@
     .navbar .menu{
       position: fixed;
       height: 100vh;
-      width: 100%;
+      width: 35%;
       left: -100%;
       top: 0;
-      /* opacity:inherit; */
       background: crimson;
       text-align: center;
       padding-top: 80px;
@@ -263,10 +262,11 @@
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+        color: white;
     }
 
     .navbar.navColor .menu li a{
-        color: black;
+        color: white;
     }
 
     .navbar.navColor .menu-btn{
