@@ -373,7 +373,7 @@
     position: absolute;
     bottom: 0px;
     left: 50%;
-    width: 180px;
+    width: 280px;
     height: 3px;
     background: black;
     transform: translateX(-50%);
@@ -444,8 +444,117 @@
     background: crimson;
 }
 
+/*Experience Page Styling*/
+
+.experience h2{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu';
+}
+
+.experience .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 280px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+.experience .title::after{
+    content: "Main Projects";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+.project{
+    /* background: crimson; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.project .slider{
+    background: crimson;
+    height: 450px;
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+
+.project .container{
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.project .item{
+    width: 700px;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project .item .left{
+    flex: 4;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project .item .left .leftContainer{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project .item .left .leftContainer .imgContainer{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project .item .left .leftContainer h2{
+   font-size: 20px;
+}
+.project .item .left .leftContainer p{
+   font-size: 13px;
+}
+.project .item .left .leftContainer span{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 
+.project .item .right{
+    flex: 8;
+    height: 100%;
+    background-color: yellow;
+}
 
 /* .about{
     display: flex;

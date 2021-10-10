@@ -1,11 +1,34 @@
 import React, { Component } from 'react';
+import pixels from '../images/pixels.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 
 class Experience extends Component {
     state = {  }
     render() { 
-        return (<div className='Experience'>
-            
-
+        return (<div className='experience'>
+            <h2 className="title">Projects</h2>
+        <div className="project">
+         <div className="slider">
+         
+             <div className="container">
+                 <div className="item">
+                     <div className="left">
+                         <div className="leftContainer">
+                          <div className="imgContainer">
+                       <FontAwesomeIcon icon={faMobileAlt} />
+                          {/* <img src={pixels} alt={"pixels"}></img> */}
+                        </div>
+                        <h2>Title</h2>
+                        <p>asdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd</p>
+                        <span>Projects</span>
+                        </div>
+                     </div>
+                     <div className="right"></div>
+                 </div>
+             </div>
+         </div>
+         </div>
         </div>  );
     }
 }
