@@ -484,17 +484,42 @@
     /* display: flex; */
     align-items: center;
     justify-content: center;
+
+    position: relative;
 }
 
+.arrow_left{
+    height: 500px;
+    font-size: 100px;
+    position: absolute; 
+    cursor: pointer; 
+    left: 100px;
+     
+    
+    /* transform: rotate(180deg); */
+}
+
+.arrow_right{
+    height: 500px;
+    font-size: 100px;
+    position: absolute;   
+    cursor: pointer;  
+    right: 100px;
+}
+
+
 .project .slider{
-    background: crimson;
-    height: 450px;
+    margin-top: -20px;
+    background: yellowgreen;
+    height: 550px;
     display: flex;
     position: absolute;
     left: 0;
 }
 
 .project .container{
+    padding-top: 70px;
+    padding-bottom: 70px;
    width: 100vw;
    display: flex;
    align-items: center;
@@ -531,7 +556,7 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: violet;
+    background-color: rgb(235, 48, 85);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -553,7 +578,15 @@
 .project .item .right{
     flex: 8;
     height: 100%;
-    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.project .item .right img{
+    width: 400px;
+    /* transform: rotate(-10deg); */
 }
 
 /* .about{
