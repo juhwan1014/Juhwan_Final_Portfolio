@@ -4,52 +4,76 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
+import { data } from 'jquery';
+import $ from "jquery";
 
 class Experience extends Component {
+
+    constructor(props){
+        super(props);
+        this.state={
+            currentSlide : 0,
+        };
+    }
+
+   
+    
+    handleClick = (way) => {
+
+      
+       way === "left"  ?
+        this.currentSlide > 0 ? 
+        this.setState({
+            currentSlide: this.state.currentSlide - 1
+        }) :  
+        this.setState({
+            currentSlide: 2
+        }) :
+        this.currentSlide < data.length - 1 ?
+        this.setState({
+            currentSlide: this.state.currentSlide + 1
+        }) :
+        this.setState({
+            currentSlide: 0
+        }) 
+
+    };
+
   
     render() { 
         const data = [
             {
-                id: 1,
-                title: "Social Media App",
+                id: "1",
+                icon: "./assets/mobile.png",
+                title: "Web Design",
+                desc:
+                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
                 img:
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+                  "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
               },
               {
-                id: 2,
-                title: "Rampa UI Design",
+                id: "2",
+                icon: "./assets/globe.png",
+                title: "Mobile Application",
+                desc:
+                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
                 img:
-                  "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+                  "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
               },
               {
-                id: 3,
-                title: "E-commerce Web Design",
+                id: "3",
+                icon: "./assets/writing.png",
+                title: "Branding",
+                desc:
+                  "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
                 img:
-                  "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
-              },
-              {
-                id: 4,
-                title: "Relax Mobile App",
-                img:
-                  "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
-              },
-              {
-                id: 5,
-                title: "Hero Web Design",
-                img:
-                  "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-              },
-              {
-                id: 6,
-                title: "Banking App",
-                img:
-                  "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+                  "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
               },
         ]
         return (<div className='experience'>
             <h2 className="title">Projects</h2>
         <div className="project">
-         <div className="slider">
+         <div className="slider" style={{transform: `translateX(-${this.currentSlide *100}vw)`}}>
          
             { data.map(d=>(
 
@@ -74,8 +98,8 @@ class Experience extends Component {
              </div>
                ))
     }
-             <FontAwesomeIcon icon={faChevronLeft} className="arrow_left"/>
-         <FontAwesomeIcon icon={faChevronRight} className="arrow_right" />
+             <FontAwesomeIcon icon={faChevronLeft} className="arrow_left" onClick={() => this.handleClick("left")}/>
+         <FontAwesomeIcon icon={faChevronRight} className="arrow_right" onClick={() =>  this.handleClick("right")} />
          </div>
          </div>
         </div>  );

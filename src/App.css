@@ -515,6 +515,8 @@
     display: flex;
     position: absolute;
     left: 0;
+    transition: all 1s ease-out;
+    /* left: -100vw; */
 }
 
 .project .container{
