@@ -19,24 +19,23 @@ class Experience extends Component {
    
     
     handleClick = (way) => {
-
       
        way === "left"  ?
-        this.currentSlide > 0 ? 
+        this.state.currentSlide > 0 ? 
         this.setState({
             currentSlide: this.state.currentSlide - 1
         }) :  
         this.setState({
             currentSlide: 2
         }) :
-        this.currentSlide < data.length - 1 ?
+        this.state.currentSlide < data.length - 1 ?
         this.setState({
             currentSlide: this.state.currentSlide + 1
         }) :
         this.setState({
             currentSlide: 0
         }) 
-
+        console.log(this.state.currentSlide)
     };
 
   
@@ -73,7 +72,9 @@ class Experience extends Component {
         return (<div className='experience'>
             <h2 className="title">Projects</h2>
         <div className="project">
-         <div className="slider" style={{transform: `translateX(-${this.currentSlide *100}vw)`}}>
+         <div className="slider" 
+         style={{transform: `translateX(-${this.state.currentSlide *100}vw)`}}
+         >
          
             { data.map(d=>(
 
@@ -98,9 +99,10 @@ class Experience extends Component {
              </div>
                ))
     }
-             <FontAwesomeIcon icon={faChevronLeft} className="arrow_left" onClick={() => this.handleClick("left")}/>
-         <FontAwesomeIcon icon={faChevronRight} className="arrow_right" onClick={() =>  this.handleClick("right")} />
+            
          </div>
+         <FontAwesomeIcon icon={faChevronLeft} className="arrow_left" onClick={() => this.handleClick("left")}/>
+         <FontAwesomeIcon icon={faChevronRight} className="arrow_right" onClick={() =>  this.handleClick("right")} />
          </div>
         </div>  );
     }
