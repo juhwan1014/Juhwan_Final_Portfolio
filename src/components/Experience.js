@@ -101,8 +101,10 @@ class Experience extends Component {
     }
             
          </div>
+         <div className="arrows">
          <FontAwesomeIcon icon={faChevronLeft} className="arrow_left" onClick={() => this.handleClick("left")}/>
          <FontAwesomeIcon icon={faChevronRight} className="arrow_right" onClick={() =>  this.handleClick("right")} />
+         </div>
          </div>
         </div>  );
     }
