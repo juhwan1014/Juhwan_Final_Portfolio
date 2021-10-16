@@ -425,6 +425,7 @@
 
 .project .item .right img{
     width: 400px;
+    height: 300px;
     /* transform: rotate(-10deg); */
 }
 

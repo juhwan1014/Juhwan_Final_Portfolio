@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import pixels from '../images/pixels.jpg';
+import Swift_ReactNative from '../images/Swift_ReactNative.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
@@ -47,8 +48,9 @@ class Experience extends Component {
                 title: "Web Design",
                 desc:
                   "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-                img:
-                  "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+                // img:
+                //   "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+                img: "https://i.imgur.com/WhlXW0z.jpg",
               },
               {
                 id: "2",
