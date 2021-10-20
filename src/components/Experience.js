@@ -108,6 +108,15 @@ class Experience extends Component {
          <FontAwesomeIcon icon={faChevronRight} className="arrow_right" onClick={() =>  this.handleClick("right")} />
          </div>
          </div>
+
+
+
+
+
+
+
+
+         
         </div>  );
     }
 }
