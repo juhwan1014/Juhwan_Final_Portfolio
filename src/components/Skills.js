@@ -42,7 +42,7 @@ class Skills extends Component {
                         <div class="info">
                             <span>JavaScript</span>
                             <span>50%</span>
-                        </div>
+                        </div> 
                         <div class="line js">
                         </div>
                     </div>
