@@ -45,7 +45,7 @@ class Skills extends Component {
                         </div> 
                         <div class="line js">
                         </div>
-                    </div>
+                    </div>       
                     <div class="bars">
                         <div class="info">
                             <span>Java</span>
