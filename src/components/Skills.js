@@ -58,7 +58,7 @@ class Skills extends Component {
                         <div class="info">
                             <span>SQL</span>
                             <span>40%</span>
-                        </div>
+                        </div>     
                         <div class="line sql">
                         </div>  
                     </div>
