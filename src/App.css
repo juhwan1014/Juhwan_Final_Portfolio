@@ -39,7 +39,9 @@
 
 .navbar.navColor{
     padding: 15px 0;
-    background: crimson;
+    background: rgb(150, 150, 150);
+    /* background: #B4C8BB; */
+     /* background: #BBD0E9; */
 }
 
 .navbar.navColor .max-width .logo a{
@@ -166,6 +168,7 @@
 
 .header .header-content .text_3 span{
     color: crimson;
+    /* color: #4687d6; */
     font-weight: 500;
 }
 
@@ -351,7 +354,8 @@
 
 .project .slider{
     margin-top: -20px;
-    background: rgba(220, 20, 60, 0.37);
+    /* background: rgba(220, 20, 60, 0.37); */
+    background: #B4C8BB;
     height: 550px;
     display: flex;
     position: absolute;
@@ -474,6 +478,10 @@
 
 /*Skills Page Styling*/
 
+.skills {
+    margin-top: 700px;
+}
+
   .skills .skills-content{
     display: flex;
     flex-wrap: wrap;
@@ -481,15 +489,42 @@
     justify-content: space-between;
     padding: 60px;
     margin-top: -70px;
+   
   }
   
   .skills .title{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 5em;
-    text-align: left;
-    margin-left: 30px;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu';
     
   }
+
+  .skills .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 280px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+.skills .title::after{
+    content: "Who I am";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+}
   
   
   .skills .skills-content .column{
