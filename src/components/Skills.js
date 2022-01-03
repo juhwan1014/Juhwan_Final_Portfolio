@@ -12,7 +12,7 @@ class Skills extends Component {
             <h2 className="title">
             {/* <Fade bottom cascade>My skills</Fade> */}My Skills
             </h2>
-           
+             
             <div className="skills-content">
          
                 <div className="column left">
