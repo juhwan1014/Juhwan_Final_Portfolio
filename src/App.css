@@ -588,16 +588,16 @@
     width: 70%;
   }
   .skills-content .right .js::before{
-    width: 50%;
+    width: 80%;
   }
   .skills-content .right .java::before{
-    width: 70%;
+    width: 50%;
   }
   .skills-content .right .sql::before{
     width: 40%;
   }
   .skills-content .right .react::before{
-    width: 60%;
+    width: 80%;
   }
   .skills-content .right .etc::before{
     width: 30%;
@@ -745,6 +745,27 @@
                 font-size: 20px;
                 /* padding: 9px 25px; */
             }
+
+            .project .container{
+                padding-top: 70px;
+                padding-bottom: 70px;
+               width: 100vw;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               padding-left: 140px;
+               padding-right: 140px;
+            }
+            
+            
+        .project .arrows .arrow_left{
+            margin-left: -90px;
+        }
+        .project .arrows .arrow_right{
+            margin-right: -90px;
+        }
+
+
 }
 
 @media (max-width: 500px){

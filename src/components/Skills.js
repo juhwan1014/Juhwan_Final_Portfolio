@@ -42,7 +42,7 @@ class Skills extends Component {
                     <div className="bars">
                         <div className="info">
                             <span>JavaScript</span>
-                            <span>50%</span>
+                            <span>80%</span>
                         </div> 
                         <div className="line js">
                         </div>
@@ -50,7 +50,7 @@ class Skills extends Component {
                     <div className="bars">
                         <div className="info">
                             <span>Java</span>
-                            <span>70%</span>
+                            <span>50%</span>
                         </div>
                         <div className="line java">
                         </div>
@@ -66,7 +66,7 @@ class Skills extends Component {
                     <div className="bars">
                         <div className="info">
                             <span>React</span>
-                            <span>60%</span>
+                            <span>80%</span>
                         </div>
                         <div className="line react">
                         </div>
