@@ -4,6 +4,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
+import Teams from './components/Teams';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
@@ -33,6 +34,9 @@ function App() {
       </div>
       <div className='Skills'>
         <Skills></Skills>
+      </div>
+      <div className='teams'>
+        <Teams></Teams>
       </div>
       <div className='contact'>
         <Contact></Contact>
