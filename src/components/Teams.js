@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
 import me from '../images/me.jpeg'
+import $ from "jquery";
+
+
+
 
 class Teams extends Component {
     state = {}
-
-    componentDidMount() {
-        
-        $('carousel').owlCarousel({
-
-        });
-    }
-
+   
 
     render() {
+       
         return (<div className='teams'>
 
             <div className='max-width'>

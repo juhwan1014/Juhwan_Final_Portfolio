@@ -645,6 +645,10 @@
     transform: translateX(-50%);
 }
 
+.teams .carousel{
+    display: flex;
+}
+
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
