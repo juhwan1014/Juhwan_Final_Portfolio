@@ -10,8 +10,8 @@ class Header extends Component {
                     <div className="text_1">Hello, my name is</div>
                     <div className="text_2">Juhwan Moon</div>
                     <div className="text_3">And I'm a <span>Software Developer</span></div>
-                    {/* <button><a href={`mailto:$juhwan0718@gmail.com`} rel="noopenner norefferer">Contact</a></button> */}
-                    <a href="#">Contact</a>
+                    <a href={`mailto:$juhwan0718@gmail.com`} rel="noopenner norefferer">Contact</a>
+                    {/* <a href="juhwan0718@gmail.com">Contact</a> */}
                 </div>
             </div>
 

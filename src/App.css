@@ -13,6 +13,10 @@
     margin: auto;
 }
 
+.App{
+    background-color: black;
+}
+
 .heading-background{
     position: fixed;
     opacity: 0.08;
@@ -39,7 +43,8 @@
 
 .navbar.navColor{
     padding: 15px 0;
-    background: rgb(150, 150, 150);
+    /* background: rgb(150, 150, 150); */
+    background: black;
     /* background: #B4C8BB; */
      /* background: #BBD0E9; */
 }
@@ -70,6 +75,7 @@
 }
 .navbar .max-width .logo a:hover{
     color: crimson;
+    /* color: orange; */
 }
 .navbar .menu{
     margin: auto 0 auto auto;
@@ -196,6 +202,7 @@
 .about{
     padding: 100px 0;
     font-family: 'Poppins';
+    color: white;
 }
 
 .about .title{
@@ -236,6 +243,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    border: solid;
+    border-color: white;
+    padding: 25px;
 }
 
 .about .about-content .left{
@@ -296,6 +306,7 @@
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu';
+    color: white;
 }
 
 .experience .title::before{
@@ -355,7 +366,8 @@
 .project .slider{
     margin-top: -20px;
     /* background: rgba(220, 20, 60, 0.37); */
-    background: #B4C8BB;
+    /* background: #B4C8BB; */
+    background: black;
     height: 550px;
     display: flex;
     position: absolute;
@@ -480,6 +492,7 @@
 
 .skills {
     margin-top: 700px;
+    color: white;
 }
 
   .skills .skills-content{
@@ -812,10 +825,11 @@
     .navbar .menu{
       position: fixed;
       height: 100vh;
-      width: 35%;
+      width: 23%;
       left: -100%;
       top: 0;
-      background: crimson;
+      background: black;
+      opacity: .6;
       text-align: center;
       padding-top: 80px;
       transition: all 0.3s ease;
@@ -829,7 +843,7 @@
     .navbar .menu li a{
         display: inline-block;
         margin: 20px 0;
-        font-size: 25px;
+        font-size: 20px;
         color: white;
     }
 
