@@ -789,6 +789,41 @@
     transform: translateX(-50%);
 }
 
+.qualification .tabs{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.qualification .button--flex{
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.qualification .button--flex:hover{
+    color: crimson;
+}
+.qualification .icon{
+      margin-right: 20px;
+}
+
+.qualification .content_data{
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+
+.qualification .quali_title{
+    font-size: large;
+    font-weight: bold;
+}
+
+.qualification .quali_subtitle{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 
 
 
