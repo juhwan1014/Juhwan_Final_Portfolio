@@ -824,6 +824,21 @@
     margin-bottom: 20px;
     margin-top: 10px;
 }
+.qualification .calendar{
+
+}
+
+.qualification .rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+
+.qualification .line{
+    display: block;
+}
 
 
 
