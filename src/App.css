@@ -295,164 +295,6 @@
 }
 
 
- 
-/*Experience Page Styling*/
-
-.experience h2{
-    position: relative;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
-    font-family: 'Ubuntu';
-    color: white;
-}
-
-.experience .title::before{
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    width: 280px;
-    height: 3px;
-    background: black;
-    transform: translateX(-50%);
-}
-
-.experience .title::after{
-    content: "Main Projects";
-    position: absolute;
-    bottom: -12px;
-    left: 50%;
-    font-size: 20px;
-    color: crimson;
-    padding: 5px;
-    background: white;
-    transform: translateX(-50%);
-}
-
-.project{
-    /* background: crimson; */
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
-
-
-.arrow_left{
-    height: 500px;
-    font-size: 100px;
-    position: absolute; 
-    cursor: pointer; 
-    left: 100px;
-     
-    
-    /* transform: rotate(180deg); */
-}
-
-.arrow_right{
-    height: 500px;
-    font-size: 100px;
-    position: absolute;   
-    cursor: pointer;  
-    right: 100px;
-}
-
-
-.project .slider{
-    margin-top: -20px;
-    /* background: rgba(220, 20, 60, 0.37); */
-    /* background: #B4C8BB; */
-    background: black;
-    height: 550px;
-    display: flex;
-    position: absolute;
-    left: 0;
-    transition: all 1s ease-out;
-    /* left: -100vw; */
-}
-
-.project .container{
-    padding-top: 70px;
-    padding-bottom: 70px;
-   width: 100vw;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-.project .item{
-    width: 700px;
-    height: 100%;
-    background-color: white;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.project .item .left{
-    flex: 4;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.project .item .left .leftContainer{
-    width: 90%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.project .item .left .leftContainer .imgContainer{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgb(235, 48, 85);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.project .item .left .leftContainer h2{
-   font-size: 20px;
-}
-.project .item .left .leftContainer p{
-   font-size: 13px;
-}
-.project .item .left .leftContainer span{
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-
-.project .item .right{
-    flex: 8;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.project .item .right img{
-    width: 400px;
-    height: 300px;
-    /* transform: rotate(-10deg); */
-}
-
-.project .arrows{
-    color: white;
-}
-
 /* .about{
     display: flex;
     flex-direction: row;
@@ -491,7 +333,7 @@
 /*Skills Page Styling*/
 
 .skills {
-    margin-top: 700px;
+    /* margin-top: 700px; */
     color: white;
 }
 
@@ -723,6 +565,234 @@
 
 
 
+
+
+/*Experience Page Styling*/
+.experience{
+    margin-top: 50px;
+    
+}
+
+.experience h2{
+    position: relative;
+    
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    
+    padding-bottom: 20px;
+    font-family: 'Ubuntu';
+    color: orange;
+    
+}
+
+.experience .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 280px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+.experience .title::after{
+    content: "Main Projects";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+.project{
+    /* background: crimson; */
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    
+}
+
+
+
+.arrow_left{
+    height: 500px;
+    font-size: 100px;
+    position: absolute; 
+    cursor: pointer; 
+    left: 150px;
+     
+    
+    /* transform: rotate(180deg); */
+}
+
+.arrow_right{
+    height: 500px;
+    font-size: 100px;
+    position: absolute;   
+    cursor: pointer;  
+    right: 150px;
+}
+
+
+.project .slider{
+    /* margin-top: -20px; */
+    /* background: rgba(220, 20, 60, 0.37); */
+    /* background: #B4C8BB; */
+    background: black;
+    height: 550px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+    /* left: -100vw; */
+}
+
+.project .container{
+    /* padding-top: 70px; */
+    /* padding-bottom: 70px; */
+   /* width: 100vw; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* border: solid;
+   border-color: white; */
+   /* width: 500vw; */
+   
+}
+
+.project .item{
+    width: 700px;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project .item .left{
+    flex: 4;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project .item .left .leftContainer{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project .item .left .leftContainer .imgContainer{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(235, 48, 85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project .item .left .leftContainer h2{
+   font-size: 20px;
+}
+.project .item .left .leftContainer p{
+   font-size: 13px;
+}
+.project .item .left .leftContainer span{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.project .item .right{
+    flex: 8;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.project .item .right img{
+    width: 400px;
+    height: 300px;
+    /* transform: rotate(-10deg); */
+}
+
+.project .arrows{
+    color: white;
+}
+
+
+
+
+.qualification h2{
+    position: relative;
+    
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    
+    padding-bottom: 20px;
+    font-family: 'Ubuntu';
+    color: white;
+    
+}
+
+/* .qualification .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu';
+    color: white;
+} */
+
+.qualification{
+    color: white;
+}
+
+.qualification .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 280px;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+.qualification .title::after{
+    content: "Juhwan's Personal Journey";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+}
+
+
+
+
+
   /*Responsive Media Query*/
 
 @media (max-width: 1300px){
@@ -899,7 +969,15 @@
         flex: 100%;
     }
 
-
+    .project .item{
+        width: 400px;
+    }
+    .project .arrows .arrow_left{
+        margin-left: -90px;
+    }
+    .project .arrows .arrow_right{
+        margin-right: -90px;
+    }
 
    
 }
@@ -940,7 +1018,17 @@
         .project .arrows .arrow_right{
             margin-right: -90px;
         } */
-
+        .project .item{
+            width: 300px;
+            height: 80%;
+        }    
+        
+    .project .arrows .arrow_left{
+        margin-left: -90px;
+    }
+    .project .arrows .arrow_right{
+        margin-right: -90px;
+    }
 
 }
 
@@ -965,7 +1053,10 @@
                padding-right: 140px;
             }
 
-            
+            .project .item{
+                width: 270px;
+                height: 70%;
+            }    
             
         .project .arrows .arrow_left{
             margin-left: -90px;
@@ -997,7 +1088,9 @@
                padding-right: 140px;
             }
             
-            
+            .project .item{
+                width: 200px;
+            }   
         .project .arrows .arrow_left{
             margin-left: -90px;
         }

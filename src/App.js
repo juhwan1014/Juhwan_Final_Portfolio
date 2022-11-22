@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Teams from './components/Teams';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
+import Qualification from './components/Qualification';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -29,14 +30,17 @@ function App() {
         <Work></Work>
       </div>
   */}
-  <div className='Experience'>
-        <Experience></Experience>
+  <div className='Qualification'>
+        <Qualification></Qualification>
       </div>
       <div className='Skills'>
         <Skills></Skills>
       </div>
       <div className='teams'>
         <Teams></Teams>
+      </div>
+      <div className='Experience'>
+        <Experience></Experience>
       </div>
       <div className='contact'>
         <Contact></Contact>
