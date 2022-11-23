@@ -22,21 +22,29 @@ class Experience extends Component {
     handleClick = (way) => {
 
         way === "left" ?
+
             this.state.currentSlide > 0 ?
                 this.setState({
                     currentSlide: this.state.currentSlide - 1
                 }) :
                 this.setState({
                     currentSlide: 2
-                }) :
-            this.state.currentSlide < data.length - 1 ?
+                }) 
+                
+
+                :
+
+
+            this.state.currentSlide < data.length + 1 - 1 ?
                 this.setState({
                     currentSlide: this.state.currentSlide + 1
                 }) :
                 this.setState({
                     currentSlide: 0
                 })
+
         console.log(this.state.currentSlide)
+        console.log(data.length)
     };
 
 
@@ -55,31 +63,32 @@ class Experience extends Component {
             {
                 id: "2",
                 icon: "./images/mobile.png",
-                title: "Web Design",
+                title: "UBI(Usage Based Insurance) Project",
                 desc:
                     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
                 // img:
                 //   "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
-                img: "https://i.imgur.com/WhlXW0z.jpg",
+                // img: "https://i.imgur.com/WhlXW0z.jpg",
+                img: "https://s3-us-west-2.amazonaws.com/jerry-uploads-prod/article/images/policy-insurance-car-cash-money-toy-vehicle-transport-auto-accident-examine-contract-safety_t20_zWOQ7Q.jpg"
             },
             {
                 id: "3",
                 icon: "./images/globe.png",
-                title: "Mobile Application",
+                title: "Trusting Pixels (Industry Project)",
                 desc:
                     "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-                img:
-                    "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+                
+                img: "https://i.imgur.com/WhlXW0z.jpg",
             },
             {
                 id: "4",
                 icon: "./images/writing.png",
-                title: "Branding",
+                title: "To-do list & Note Application",
                 desc:
                     "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
                 img:
-                    "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-            },
+                    "https://ifh.cc/g/czNxTa.jpg",
+            }
         ]
         return (<div className='experience'>
             <h2 className="title">Projects</h2>
@@ -96,8 +105,8 @@ class Experience extends Component {
                                     <div className="leftContainer">
                                         <div className="project_title">
                                         <div className="imgContainer">
-                                            {/* <FontAwesomeIcon icon={faMobileAlt} /> */}
-                                            <img src={d.icon} alt="" />
+                                            <FontAwesomeIcon icon={faMobileAlt} />
+                                            {/* <img src={d.icon} alt={""}></img> */}
                                         </div>
                                         {/* <h2>Title</h2> */}
                                         <h2>{d.title}</h2>

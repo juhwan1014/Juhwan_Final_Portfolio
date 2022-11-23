@@ -36,11 +36,11 @@ function App() {
       <div className='Skills'>
         <Skills></Skills>
       </div>
-      <div className='teams'>
-        <Teams></Teams>
-      </div>
       <div className='Experience'>
         <Experience></Experience>
+      </div>
+      <div className='teams'>
+        <Teams></Teams>
       </div>
       <div className='contact'>
         <Contact></Contact>

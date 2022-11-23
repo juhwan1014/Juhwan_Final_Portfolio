@@ -889,14 +889,16 @@
 
 .project .item .left .leftContainer .project_title{
 display: flex;
+
 }
 
 
 .project .item .left .leftContainer h2{
    font-size: 20px;
    color: black;
-   margin-left: 25px;
-   margin-top: 9px;
+   margin-left: 5px;
+   width: 200px;
+   /* margin-top: -15px; */
 }
 .project .item .left .leftContainer p{
    font-size: 13px;
@@ -932,7 +934,25 @@ display: flex;
 
 
 
-
+.contact{
+    display: flex;
+    /* flex-wrap: wrap;
+    align-items: center; */
+    /* justify-content: space-between; */
+    
+    height: 900px;
+    overflow: hidden;
+}
+.contact .left{
+    flex: 1;
+    overflow: hidden;
+}
+.contact .left img{
+    height: 100%;
+}
+.contact .right{
+    flex: 1;
+}
 
 
 
