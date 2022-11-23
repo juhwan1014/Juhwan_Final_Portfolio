@@ -65,7 +65,7 @@ class Navbar extends Component {
                 <div className="logo">
                 {/* <FontAwesomeIcon icon={faMugHot} /> */}
                     {/* <a href="#"><FaBars /></a> */}
-                <a href="#">Portfolio <FontAwesomeIcon icon={faMugHot} /></a>
+                <a href="#">Portfo<span>lio</span> <FontAwesomeIcon icon={faMugHot} className="icon" /></a>
                 {/* <a href="#"><img src={logo}></img></a> */}
                 </div>
               
