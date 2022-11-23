@@ -231,6 +231,7 @@
     padding: 100px 0;
     font-family: 'Poppins';
     color: #f5f5f5;
+    height: 900px;
 }
 
 .about .title{
@@ -281,8 +282,10 @@
 }
 
 .about .about-content .left img{
-   height: 400px;
-   width: 400px;
+   /* height: 400px; */
+   /* width: 400px; */
+   width: 100%;
+   height: auto;
    object-fit: cover;
    border-radius: 10px;
 }
@@ -384,6 +387,8 @@
 
 .qualification{
     color: #f5f5f5;
+    height: 900px;
+    
 }
 
 .qualification .title::before{
@@ -495,7 +500,9 @@
 
 .skills {
     /* margin-top: 700px; */
+    /* margin-top: 200px; */
     color: #f5f5f5;
+    height: 500px;
 }
 
   .skills .skills-content{
@@ -625,6 +632,7 @@
 /*Teams Page Styling*/
 .teams {
     font-family: 'Poppins';
+    height: 700px;
 }
 
 .teams .title{
@@ -735,6 +743,8 @@
     overflow-x: hidden;
     height: 700px;
     
+    /* width: 100%; */
+    
 }
 
 .experience h2{
@@ -832,7 +842,7 @@
    /* border: solid;
    border-color: white; */
    /* width: 500vw; */
-   
+  
    
 }
 
@@ -844,6 +854,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
     
     
 }
@@ -862,6 +873,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .project .item .left .leftContainer .imgContainer{
@@ -872,12 +884,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
+
+.project .item .left .leftContainer .project_title{
+display: flex;
+}
+
+
 .project .item .left .leftContainer h2{
    font-size: 20px;
+   color: black;
+   margin-left: 25px;
+   margin-top: 9px;
 }
 .project .item .left .leftContainer p{
    font-size: 13px;
+   
 }
 .project .item .left .leftContainer span{
     font-size: 12px;
@@ -1089,6 +1112,15 @@
     .about .about-content .right{
         flex: 100%;
     }
+    .qualification{
+        margin-top: 150px;
+    }
+    .skills{
+        margin-top: 150px;
+    }
+    .teams{
+        margin-top: 150px;
+    }
 
     .project .item{
         width: 400px;
@@ -1102,6 +1134,8 @@
 
    
 }
+
+
 
 @media (max-width: 690px){
 
@@ -1120,7 +1154,9 @@
                 font-size: 20px;
                 /* padding: 9px 25px; */
             }
-
+            .skills{
+                margin-top: 180px;
+            }
             /* .project .container{
                 padding-top: 70px;
                 padding-bottom: 70px;
@@ -1162,6 +1198,10 @@
     .header .header-content .text_3{
         font-size: 27px;
             }
+    
+            .skills{
+                margin-top: 180px;
+            }
 
             .project .container{
                 padding-top: 70px;
@@ -1188,7 +1228,7 @@
 }
 
 
-@media (max-width: 500px){
+@media (max-width: 550px){
 
     .header .header-content .text_2{
         font-size: 50px;
@@ -1197,7 +1237,9 @@
     .header .header-content .text_3{
         font-size: 27px;
             }
-
+            .skills{
+                margin-top: 250px;
+            }
             .project .container{
                 padding-top: 70px;
                 padding-bottom: 70px;
@@ -1211,6 +1253,7 @@
             
             .project .item{
                 width: 200px;
+                height: 60%;
             }   
         .project .arrows .arrow_left{
             margin-left: -90px;
@@ -1220,4 +1263,17 @@
         }
 }
 
+@media (max-width: 468px){
+    .project .item{
+        width: 150px;
+        height: 50%;
+    }  
+}
+
+@media (max-width: 410px){
+    .project .item{
+        width: 100px;
+        height: 40%;
+    }  
+}
 
