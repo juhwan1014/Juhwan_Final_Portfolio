@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMugHot} from '@fortawesome/free-solid-svg-icons'
 import { faBars} from '@fortawesome/free-solid-svg-icons'
 import { faTimes} from '@fortawesome/free-solid-svg-icons'
+// import { Link } from "react-router-dom"
+import { Link, animateScroll as scroll } from "react-scroll";
 // import { FaBars } from 'react-icons/fa';
 // import AiFillAlipayCircle  from "react-icons/ai";
 
@@ -22,9 +24,9 @@ class Navbar extends Component {
     }
 
 
-    // scrollToTop = () => {
-    //     scroll.scrollToTop();
-    // };
+    scrollToTop = () => {
+        scroll.scrollToTop();
+    };
 
     componentDidMount() {
       
@@ -70,14 +72,68 @@ class Navbar extends Component {
                 </div>
               
                
+            {/* <ul className="menu">
+
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/qualification">Qualification</a></li>
+                <li><a href="/skills">Skills</a></li>
+                <li><a href="/experience">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+
+            </ul> */}
+
             <ul className="menu">
 
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Qualification">Qualification</a></li>
-                <li><a href="#Skills">Skills</a></li>
-                <li><a href="#Experience">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
+            <li><Link
+                    activeClass="active"
+                    className='link'
+                    to="/"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    onClick={this.scrollToTop}>Home</Link></li>
+            <li><Link
+                    activeClass="active"
+                    className='link'
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>About</Link></li>
+            <li><Link
+                    activeClass="active"
+                    className='link'
+                    to="qualification"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>Qualification</Link></li>
+            <li><Link 
+                    activeClass="active"
+                    className='link'
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>Skills</Link></li>
+            <li><Link
+                    activeClass="active"
+                    className='link'
+                    to="experience"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>Projects</Link></li>
+            <li><Link 
+                    activeClass="active"
+                    className='link'
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>Contact</Link></li>
 
             </ul>
 

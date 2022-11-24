@@ -1,5 +1,6 @@
 import React, { Component, useEffect, useRef } from 'react';
 import { init } from 'ityped'
+
 // import {  } from "react";
 
 
@@ -15,7 +16,10 @@ class Header extends Component {
     
     render() {
 
-        return (<div className='header'>
+        return (
+        
+        <div className='header'>
+
             <div className="max-width">
             {/* <h1 className='heading-background'>POSSIBLE</h1> */}
                 <div className="header-content">

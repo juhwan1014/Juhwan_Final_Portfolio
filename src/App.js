@@ -9,50 +9,47 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Qualification from './components/Qualification';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
+import { BrowserRouter, Routes, Route} from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    
+<div className="App">
+      <BrowserRouter>
+      
       <Navbar></Navbar>
       <Route exact path="/">
-      <div className="App-header">
-      <Header></Header>
-      </div>
-      
-      <div className='About'>
-        
+        <Header></Header>
         <About></About>
-      </div>
-    {/*  <div className='work'>
-        <Work></Work>
-      </div>
-  */}
-  <div className='Qualification'>
         <Qualification></Qualification>
-      </div>
-      <div className='Skills'>
         <Skills></Skills>
-      </div>
-      <div className='Experience'>
         <Experience></Experience>
-      </div>
-      <div className='teams'>
-        <Teams></Teams>
-      </div>
-      <div className='contact'>
         <Contact></Contact>
-      </div>
-      <div className='footer'>
-        <Footer></Footer>
-      </div>
       </Route>
-     
-      </Router>
+       {/* <Header></Header> */}
+      {/* <Routes> */}
+         {/* <Route path="/" element={<Header />} />
+         <Route path="/about" element={<About/>} />
+         <Route path="/qualification" element={<Qualification/>} />
+         <Route path="/skills" element={<Skills/>} />
+         <Route path="/projects" element={<Experience/>} />
+         <Route path="/contact" element={<Contact/>} />
+   */}
+
+          
+          {/* <Route exact Path="/about"><About></About></Route>
+          <Route exact Path="/qualification"><Qualification></Qualification></Route>
+          <Route exact Path="/skills"><Skills></Skills></Route>
+          <Route exact Path="/projects"><Experience></Experience></Route>
+          <Route exact Path="/contact"><Contact></Contact></Route> */}
+        {/* </Routes> */}
+        
+      </BrowserRouter>
+</div>
       
-    </div>
+    
   );
 }
 
