@@ -7,11 +7,11 @@ class Contact extends Component {
 
         <div className='contact'>
           
-            <div className="column left">
+            <div className="left">
                 <img src="https://raw.githubusercontent.com/safak/youtube/da700015c8a88050fad7b961e99a7039638ab3b2/public/assets/shake.svg" alt=""></img>
             </div>
 
-            <div className="column right">
+            <div className="right">
                 <h2>Contact.</h2>
                 <form>
                     <input type="text" placeholder="Email"/>

@@ -956,23 +956,51 @@ display: flex;
     /* flex-wrap: wrap;
     align-items: center; */
     /* justify-content: space-between; */
-    
     height: 900px;
     overflow: hidden;
+    background-color: white;
+    
 }
 .contact .left{
-    flex: 1;
+    flex-basis: 50%;
     overflow: hidden;
+    /* border: solid black; */
+    
 }
 .contact .left img{
+    /* flex: 1; */
+    width: 100%;
     height: 100%;
+    
 }
 .contact .right{
-    flex: 1;
+    flex-basis: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+.contact .right h2{
+    font-size: 30px;
+}
+
+.contact .right form{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .right form input{
+    width: 300px;
+    height: 30px;
+    font-size: 14px;
+}
+.contact .right form textarea {
+    
 }
 
 
