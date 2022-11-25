@@ -27,6 +27,7 @@ function App() {
         <Skills></Skills>
         <Experience></Experience>
         <Contact></Contact>
+        <Footer></Footer>
       </Route>
        {/* <Header></Header> */}
       {/* <Routes> */}
