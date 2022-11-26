@@ -59,10 +59,12 @@
 .navbar.navColor .max-width .logo a{
     color: #f5f5f5;
     transition: color 0.3s ease;
+    
 }
 
 .navbar.navColor .max-width .logo a:hover{
     color: #28231D;
+    cursor: pointer;
 }
 
 .navbar .max-width{
@@ -106,6 +108,7 @@
     font-weight: bolder;
     margin-left: 25px;
     transition: color 0.3s ease;
+    cursor: pointer;
 }
 
 .navbar.navColor .menu li a{
@@ -195,6 +198,16 @@
     
 }
 
+.header .steam{
+    width: 10%;
+    
+    position: absolute;
+    left: 20%;
+    top: 1%;
+    /* border: solid orange; */
+}
+
+
 .header .header-content .text_1{
     font-size: 30px;
     margin-bottom: 20px;
@@ -218,8 +231,8 @@
         }
 
 .header .header-content .text_3 span{
+     /* color: #4687d6; */
     color: #f5f5f5;
-    /* color: #4687d6; */
     font-weight: bold;
     text-shadow: 2px 2px 2px #000;
 }
@@ -282,7 +295,10 @@
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    /* color: crimson; */
+    color: #f5f5f5;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
     padding: 5px;
     /* background: white; */
     transform: translateX(-50%);
@@ -322,7 +338,10 @@
 }
 
 .about .about-content .right .text span{
-    color: crimson;
+    /* color: crimson; */
+    color: #f5f5f5;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
 }
 
 .about .about-content .right p{
@@ -431,7 +450,10 @@
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    /* color: crimson; */
+    color: #f5f5f5;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
     padding: 5px;
     /* background: white; */
     transform: translateX(-50%);
@@ -446,7 +468,9 @@
 .qualification .button--flex{
     font-size: x-large;
     font-weight: bold;
-    color: crimson;
+    /* color: crimson; */
+    color: #f5f5f5;
+    text-shadow: 2px 2px 2px #000;
 }
 
 /* .qualification .button--flex:hover{
@@ -487,7 +511,8 @@
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: crimson;
+    /* background-color: crimson; */
+    background-color: #28231D;
     border-radius: 50%;
 }
 
@@ -495,7 +520,8 @@
     display: block;
     width: 1px;
     height: 100%;
-    background-color: crimson;
+    /* background-color: crimson; */
+    background-color: #28231D;
     transform: translate(6px, -7px)
 }
 
@@ -568,7 +594,10 @@
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    /* color: crimson; */
+    color: #f5f5f5;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
     padding: 5px;
     /* background: white; */
     transform: translateX(-50%);
@@ -588,18 +617,22 @@
   }
   .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
+    /* background: crimson; */
+    background: #28231D;
     color: #f5f5f5;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    /* border: 2px solid crimson; */
+    border: 2px solid #28231D;
     transition: all 0.3s ease;
   }
   .skills .skills-content .left a:hover{
-    color: crimson;
+    /* color: crimson; */
+    color: #28231D;
+    font-weight: bold;
     background: none;
   }
   .skills .skills-content .right .bars{
@@ -627,7 +660,10 @@
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    /* background: crimson; */
+    background: #28231D;
+    /* font-weight: bold;
+    text-shadow: 2px 2px 2px #000; */
   }
   .skills-content .right .html::before{
     width: 90%;
