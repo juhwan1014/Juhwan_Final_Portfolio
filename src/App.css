@@ -199,13 +199,19 @@
 }
 
 .header .steam{
-    width: 10%;
+    width: 30%;
+    /* position: absolute; */
+    position: relative;
+    display: flex;
     
-    position: absolute;
-    left: 20%;
-    top: 1%;
+    /* left: 16%;
+    top: 5%; */
+    left: 11%;
+    bottom: 18%;
+    /* margin-top: 40px; */
     /* border: solid orange; */
 }
+
 
 
 .header .header-content .text_1{
