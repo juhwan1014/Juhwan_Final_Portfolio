@@ -1,6 +1,7 @@
 import React, { Component, useEffect, useRef } from 'react';
 import { init } from 'ityped'
-import Lottie from "lottie-react";
+// import Lottie from "lottie-react";
+import Lottie from "reactjs-lottie";
 import steam from "./steam2.json";
 
 // import {  } from "react";
@@ -21,12 +22,20 @@ class Header extends Component {
         return (
         
         <div className='header'>
+            {/* <h1 className='heading-background'>hahaha</h1> */}
                             <div className="steam">
-                                <Lottie animationData={steam} loop={true} />
-                                {/* <Lottie animationData={steam} loop={true} /> */}
+                                <Lottie
+                                speed={0.4}  
+                                options={{
+                                    animationData: steam,
+                                    loop: true
+                                }} 
+                                
+                                />
+                                {/* <Lottie animationData={steam} loop={true} setSpeed={0.2} /> */}
                             </div>
             <div className="max-width">
-            {/* <h1 className='heading-background'>POSSIBLE</h1> */}
+            {/* <h1 className='heading-background'>POSSIBLE/h1> */}
            
                 <div className="header-content">
                     

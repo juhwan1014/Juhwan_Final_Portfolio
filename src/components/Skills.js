@@ -16,10 +16,20 @@ class Skills extends Component {
             <div className="skills-content">
          
                 <div className="column left">
-                    <div className="text">
-                        My creative skills and experiences.</div>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                    {/* <div className="text">
+                        My creative skills and experiences.</div> */}
+                    {/* <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p> */}
+                           <p>On the right, I represented how much I understood the tech tools I've used so far.</p>
+                        <p>
+                       Other skills I have experienced are as follows.</p>
+                       <ul>
+                       	<li>Amazon Web Services (AWS) - (Lambda Function, S3 Bucket, Cognito)	</li>
+                       	<li>React-Native</li>
+                       	<li>Node.js</li>
+                       	<li>DynamoDB</li>
+                       	<li>Low-code/Automation platforms (Outsystems, Blue Prism)</li>
+                       </ul>
                     <a href="#">Read more</a>
                 </div>
                 <div className="column right">
@@ -73,7 +83,7 @@ class Skills extends Component {
                     </div>
                     <div className="bars">
                         <div className="info">
-                            <span>Python/C#/.net</span>
+                            <span>Python/C#</span>
                             <span>30%</span>
                         </div>
                         <div className="line etc">

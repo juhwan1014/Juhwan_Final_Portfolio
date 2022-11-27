@@ -45,13 +45,13 @@ class Qualification extends Component {
                                 <h3 className="quali_title">Mobile Systems Engineering</h3>
                                 <span className="quali_subtitle">Dankook University</span>
                                 <div className="calendar">
-                                    <FontAwesomeIcon icon={faCalendarAlt} />
+                                    <FontAwesomeIcon icon={faCalendarAlt} className="cal_icon" />
                                     2014.Feb - 2020.Feb
                                 </div>
                             </div>
 
                             <div>
-                                <span className="rounder"></span>
+                                <span className="rounder"><div className='year1'>2014</div></span>
                                 <span className="line"></span>
                             </div>
 
@@ -61,14 +61,14 @@ class Qualification extends Component {
                             <div></div>
 
                             <div>
-                                <span className="rounder"></span>
+                                <span className="rounder"><div className='year2'>2016</div></span>
                                 <span className="line"></span>
                             </div>
                             <div className="content_data_right">
                                 <h3 className="quali_title">Math Tutor</h3>
                                 <span className="quali_subtitle">South Korea</span>
                                 <div className="calendar">
-                                    <FontAwesomeIcon icon={faCalendarAlt} />
+                                    <FontAwesomeIcon icon={faCalendarAlt} className="cal_icon"/>
                                     2015.Mar - 2016.Apr
                                 </div>
                             </div>
@@ -77,16 +77,16 @@ class Qualification extends Component {
                         {/* =====================Content Data 3====================== */}
                         <div className="content_data">
                             <div className="content_data_left">
-                                <h3 className="quali_title">Software Systems Developer - Web Developer Course</h3>
+                                <h3 className="quali_title">Software Systems Developer (Web Developer Course)</h3>
                                 <span className="quali_subtitle">BCIT (British Columbia Institute of Technology)</span>
                                 <div className="calendar">
-                                    <FontAwesomeIcon icon={faCalendarAlt} />
+                                    <FontAwesomeIcon icon={faCalendarAlt} className="cal_icon"/>
                                     2020.Sep - 2021.May
                                 </div>
                             </div>
 
                             <div>
-                                <span className="rounder"></span>
+                                <span className="rounder"><div className='year1'>2020</div></span>
                                 <span className="line"></span>
                             </div>
 
@@ -97,7 +97,7 @@ class Qualification extends Component {
                             <div></div>
 
                             <div>
-                                <span className="rounder"></span>
+                                <span className="rounder"><div className='year2'>2022</div></span>
                                 {/* <span className="line"></span> */}
                             </div>
 
@@ -105,7 +105,7 @@ class Qualification extends Component {
                                 <h3 className="quali_title">Full-Stack Developer (Internship)</h3>
                                 <span className="quali_subtitle">ICBC(Insurance Corporation of British Columbia)</span>
                                 <div className="calendar">
-                                    <FontAwesomeIcon icon={faCalendarAlt} />
+                                    <FontAwesomeIcon icon={faCalendarAlt} className="cal_icon" />
                                     2022.Feb - 2022.Aug
                                 </div>
                             </div>

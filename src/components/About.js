@@ -21,7 +21,7 @@ class About extends Component {
                <div className="column right">
                    <div className="text">I'm Juhwan Moon </div>
                    <p>What I love : Soccer, Outdoor Activities, Spike Ball, Board Game</p>
-                   <p>Personality : Positive, Spontaneous, intuitive, ENFP(MBTI)</p>
+                   <p>Personality : Positive, Spontaneous, intuitive</p>
                    <div className="text"> I'm a <span>Junior Developer</span></div>
                    <p>2014 - 2020  :  Dankook University (Mobile System Engineering)</p>
                    <p>2020 - 2021  :  British Columbia Institute of Technology (Software Systems Developer)</p>
