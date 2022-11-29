@@ -3,7 +3,7 @@ import { init } from 'ityped'
 // import Lottie from "lottie-react";
 import Lottie from "reactjs-lottie";
 import steam from "./steam2.json";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 // import {  } from "react";
 
 
@@ -45,7 +45,15 @@ class Header extends Component {
                    
                     <div className="text_2">Juhwan Moon</div>
                     <div className="text_3">I'm a <span id="myElement"></span></div>
-                    <a href={`mailto:$juhwan0718@gmail.com`} rel="noopenner norefferer">Contact</a>
+                    {/* <a href={`mailto:$juhwan0718@gmail.com`} rel="noopenner norefferer">Contact</a> */}
+                    <Link 
+                    activeClass="active"
+                    className='contact_btn'
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}>Contact</Link>
                     {/* <a href="juhwan0718@gmail.com">Contact</a> */}
                 </div>
             </div>

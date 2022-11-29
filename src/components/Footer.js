@@ -9,13 +9,13 @@ class Footer extends Component {
         return (<div className='footer'>
             
             <p>Juhwan Moon</p>
-		<p>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p>
+		<p>For more my information and code details of my other projects,  please click on the link below</p>
 		<div class="social">
 			<a href="#"><FaGithub /></a>
 			<a href="#"><FaLinkedin /></a>
 			<a href="#"><FaFacebook /></a>
 		</div>
-		<p class="end">CopyRight By Tahmid Ahmed</p>
+		<p class="end">CopyRight By Juhwan Moon</p>
 
         </div>  );
     }
