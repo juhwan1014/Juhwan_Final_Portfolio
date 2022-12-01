@@ -51,6 +51,13 @@ class Teams extends Component {
                         <p>asd dlasd sladasldkasldk sadjaksd osdjaksdksiqd sdaokd oqdqosdkqmdksqmd sqodj</p>
                         </div>
                     </div>
+                    <div className='card'>
+                        <div className='box'>
+                        <img src={me} alt={"me"}></img>
+                        <div className='text'>내가 바로 문주환</div>
+                        <p>asd dlasd sladasldkasldk sadjaksd osdjaksdksiqd sdaokd oqdqosdkqmdksqmd sqodj</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 

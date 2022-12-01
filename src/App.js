@@ -26,6 +26,7 @@ function App() {
         <Qualification></Qualification>
         <Skills></Skills>
         <Experience></Experience>
+        <Teams></Teams>
         <Contact></Contact>
         <Footer></Footer>
       </Route>

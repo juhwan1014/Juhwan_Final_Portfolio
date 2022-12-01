@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import me from '../images/me.jpeg'
+import Lottie from "reactjs-lottie";
+import coffee from "./coffee.json";
 
 
 
@@ -12,6 +14,14 @@ class About extends Component {
     render() { 
         return (
     <div className='about'>
+         <Lottie className="coffee"
+                                speed={0.4}  
+                                options={{
+                                    animationData: coffee,
+                                    loop: true
+                                }} 
+                                
+                                />
        <div className="max-width">
            <h2 className="title">About Me</h2>
            <div className="about-content">
@@ -20,8 +30,8 @@ class About extends Component {
                 </div>
                <div className="column right">
                    <div className="text">I'm Juhwan Moon </div>
-                   <p>What I love : Soccer, Outdoor Activities & Sports, Board Game, Weight Training</p>
-                   <p>Personality : Positive, Spontaneous, intuitive</p>
+                   <p><div className='small_title'>Hobbies</div> : Soccer, Outdoor Activities & Sports, Board Game, Weight Training</p>
+                   <p><div className='small_title'>Personality</div> : Positive, Spontaneous, intuitive</p>
                    <div className="text"> I'm a <span>Junior Developer</span></div>
                    <p>2014 - 2020  :  Dankook University (Mobile System Engineering)</p>
                    <p>2020 - 2021  :  British Columbia Institute of Technology (Software Systems Developer)</p>

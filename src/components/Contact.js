@@ -21,12 +21,10 @@ class Contact extends Component {
         const sendEmail = (e) => {
 
 
-           this.state.name == "" || this.state.email == "" || this.state.user_message == "" ?
-       
+          if( this.state.name == "" || this.state.email == "" || this.state.user_message == "" ) {
             alert("Please, fill in the all areas.")
-       
-            :
-
+          }
+          else{
           e.preventDefault();
       
           emailjs.sendForm('service_eneofst', 'template_r2py9l8', form.current, 'Cm-hdgB0a1xz-eg33')
@@ -39,7 +37,7 @@ class Contact extends Component {
                 alert('Sorry, an error has been detected. Please, enter again.')
                 window.location.reload(false);
             });
-
+        }
        
             
 

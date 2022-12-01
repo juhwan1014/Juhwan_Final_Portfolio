@@ -303,6 +303,19 @@
     
 }
 
+.about .coffee{
+    position: fixed;
+    top: 900px;
+    z-index: -100;
+    /* position: fixed;
+    opacity: 0.08;
+    font-size: 24em;
+    left:-0.2em;
+    top:-0.5em;
+    z-index: -100;
+    color: crimson; */
+}
+
 .about .title{
     position: relative;
     text-align: center;
@@ -364,6 +377,7 @@
    height: auto;
    object-fit: cover;
    border-radius: 10px;
+   border: solid #28231D 7px;
    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
    animation: about__animate 8s ease-in-out infinite 1s;
 }
@@ -391,6 +405,11 @@
     font-weight: 600;
     margin-bottom: 10px;
     margin-top: 30px;
+}
+.about .about-content .right .small_title{
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .about .about-content .right .text span{
@@ -792,6 +811,7 @@ margin-right: 10px;
 .teams {
     font-family: 'Poppins';
     height: 700px;
+    margin-top: 200px;
 }
 
 .teams .title{
@@ -817,12 +837,15 @@ margin-right: 10px;
 }
 
 .teams .title::after{
-    content: "흐음... 여기다가는 뭘 넣을까";
+    content: "Other Projects";
     position: absolute;
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    /* color: crimson; */
+    color: #f5f5f5;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
     padding: 5px;
     /* background: white; */
     transform: translateX(-50%);
@@ -830,6 +853,10 @@ margin-right: 10px;
 
 .teams .carousel{
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: solid green 3px; */
 }
 
 .teams .carousel .card{
@@ -838,10 +865,18 @@ margin-right: 10px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
-    transition: all 0.3s ease;
+    color: #f5f5f5;
+    width: 30%;
+    /* transition: all 0.3s ease; */
+    margin: 5px;
 }
 .teams .carousel .card:hover{
-    background: crimson;
+    color:#28231D;
+    font-weight: bolder;
+    border: solid #28231D 5px;
+    /* background: #f5f5f5;;;;; */
+    background: none;
+    text-shadow: 2px 5px 4px rgb(105, 105, 105);
 }
 .teams .carousel .card .box{
     display: flex;
@@ -849,6 +884,8 @@ margin-right: 10px;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+   
+    
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
@@ -863,11 +900,11 @@ margin-right: 10px;
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid #f5f5f5;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
-    border-color: #f5f5f5;
+    border-color: #28231D;
 }
 .owl-dots{
     text-align: center;
@@ -1097,7 +1134,8 @@ display: flex;
 
 
 .contact{
-    margin-top: 200px;
+    margin-top: 400px;
+   
 }
 
 .contact_wraper{
