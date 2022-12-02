@@ -92,13 +92,13 @@ class Experience extends Component {
         ]
         return (<div className='experience'>
             <h2 className="title">Projects</h2>
+            <h2 className="title2">Main Projects</h2>
             <div className="project">
+                
                 <div className="slider"
-                    style={{ transform: `translateX(-${this.state.currentSlide * 100}vw)` }}
-                >
-
+                    style={{ transform: `translateX(-${this.state.currentSlide * 100}vw)` }}>
                     {data.map(d => (
-
+                       
                         <div className="container">
                             <div className="item">
                                 <div className="left">

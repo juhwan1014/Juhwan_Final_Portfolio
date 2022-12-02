@@ -14,47 +14,47 @@ class Teams extends Component {
         return (<div className='teams'>
 
             <div className='max-width'>
-                <h2 className='title'>My Teams</h2>
+                <h2 className='title'></h2>
                 <div className='carousel owl-carousel'>
                     <div className='card'>
                         <div className='box'>
                             <img src={me} alt={"me"}></img>
-                            <div className='text'>내가 바로 문주환</div>
+                            <div className='text'>Fitness App</div>
                             <p>asd dlasd sladasldkasldk sadjaksd osdjaksdksiqd sdaokd oqdqosdkqmdksqmd sqodj</p>
                         </div>
                     </div>
                     <div className='card'>
                         <div className='box'>
                         <img src={me} alt={"me"}></img>
-                        <div className='text'>내가 바로 문주환</div>
+                        <div className='text'>UBI</div>
                         <p>asd dlasd sladasldkasldk sadjaksd osdjaksdksiqd sdaokd oqdqosdkqmdksqmd sqodj</p>
                         </div>
                     </div>
                     <div className='card'>
                         <div className='box'>
                         <img src={me} alt={"me"}></img>
-                        <div className='text'>내가 바로 문주환</div>
+                        <div className='text'>Trusting fixels</div>
                         <p>asd dlasd sladasldkasldk sadjaksd osdjaksdksiqd sdaokd oqdqosdkqmdksqmd sqodj</p>
                         </div>
                     </div>
                     <div className='card'>
                         <div className='box'>
                         <img src={me} alt={"me"}></img>
-                        <div className='text'>내가 바로 문주환</div>
+                        <div className='text'>Stock App</div>
                         <p>asd dlasd sladasldkasldk sadjaksd osdjaksdksiqd sdaokd oqdqosdkqmdksqmd sqodj</p>
                         </div>
                     </div>
                     <div className='card'>
                         <div className='box'>
                         <img src={me} alt={"me"}></img>
-                        <div className='text'>내가 바로 문주환</div>
+                        <div className='text'>SHREDZ</div>
                         <p>asd dlasd sladasldkasldk sadjaksd osdjaksdksiqd sdaokd oqdqosdkqmdksqmd sqodj</p>
                         </div>
                     </div>
                     <div className='card'>
                         <div className='box'>
                         <img src={me} alt={"me"}></img>
-                        <div className='text'>내가 바로 문주환</div>
+                        <div className='text'>Note App</div>
                         <p>asd dlasd sladasldkasldk sadjaksd osdjaksdksiqd sdaokd oqdqosdkqmdksqmd sqodj</p>
                         </div>
                     </div>
