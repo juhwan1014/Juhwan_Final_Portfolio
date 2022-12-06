@@ -52,7 +52,7 @@ class Experience extends Component {
         const data = [
             {
                 id: "1",
-                icon: "./images/mobile.png",
+                icon: "./images/mobile.png ",
                 title: "Fitness Helper Web Application",
                 desc:
                     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
