@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './swiper-bundle.min.css'
 import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';

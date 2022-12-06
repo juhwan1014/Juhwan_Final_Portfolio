@@ -947,215 +947,72 @@ margin-right: 10px;
     
 }
 
+
 .experience .title{
     position: relative;
-    
     text-align: center;
     font-size: 40px;
     font-weight: 500;
-    
+    margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu';
-    /* color: #f5f5f5; */
-    color: #28231D;
     
-    
-}
+  }
 
-.experience .title2{
-    position: relative;
-    
-    text-align: center;
-    font-size: 30px;
-    font-weight: 500;
-    
-    padding-bottom: 20px;
-    font-family: 'Ubuntu';
-    /* color: #f5f5f5; */
-    color: #f5f5f5;
-    background-color: #28231D;
-    padding-top: 50px;
-    
-    
-}
-/* 
-.experience .title::before{
+  .experience .title::before{
     content: "";
     position: absolute;
-    bottom: -100px;
+    bottom: 0px;
     left: 50%;
     width: 280px;
     height: 3px;
-    background: red;
+    background: #28231D;
     transform: translateX(-50%);
-} */
+}
 
-/* .experience .title::after{
-    content: "Main Projects";
+.experience .title::after{
+    content: "Skills & Tech Tools";
     position: absolute;
-    bottom: -40px;
+    bottom: -12px;
     left: 50%;
     font-size: 20px;
+    /* color: crimson; */
     color: #f5f5f5;
     font-weight: bold;
     text-shadow: 2px 2px 2px #000;
-     padding-top: 55px;
+    padding: 5px;
+    /* background: white; */
     transform: translateX(-50%);
-    background-color: #28231D;
-    width: 100%;
-    border: solid red 5px;
-   
-} */
+}
+.experience .container{
+    overflow: initial;
+    border: solid orange 5px;
+}
 
-.project{
-    /* background: crimson; */
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    width: 100%;
-    margin-top: 40px;
-    
-    
-    
+.experience .grid{
+    padding: 0 1.5rem;
+}
+
+.experience .img{
+    width: 265px;
+    border-radius: .5rem;
+    justify-self: center;
+}
+.experience .project_title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5)
+}
+
+.experience .project_button:hover .arrow_right{
+    transform: translateX(.25rem);
 }
 
 
 
-.arrow_left{
-    height: 500px;
-    font-size: 100px;
-    position: absolute; 
-    cursor: pointer; 
-    left: 150px;
-     
-    
-    /* transform: rotate(180deg); */
-}
-
-.arrow_right{
-    height: 500px;
-    font-size: 100px;
-    position: absolute;   
-    cursor: pointer;  
-    right: 150px;
-}
 
 
-.project .slider{
-    /* margin-top: -20px; */
-    /* background: rgba(220, 20, 60, 0.37); */
-    /* background: #B4C8BB; */
-    background: #28231D;
-    height: 550px;
-    display: flex;
-    position: absolute;
-    left: 0;
-    transition: all 1s ease-out;
-    margin-top: -40px;
-    /* left: -100vw; */
-    /* border: solid yellow; */
-    /* top: -10px; */
-}
-
-.project .container{
-    /* padding-top: 70px; */
-    /* padding-bottom: 70px; */
-   /* width: 100vw; */
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   /* border: solid;
-   border-color: white; */
-   /* width: 500vw; */
-  
-   
-}
-
-.project .item{
-    width: 700px;
-    height: 100%;
-    background-color: #f5f5f5;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
-    
-}
-
-.project .item .left{
-    flex: 4;
-    height: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.project .item .left .leftContainer{
-    width: 90%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-}
-
-.project .item .left .leftContainer .imgContainer{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgb(235, 48, 85);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.project .item .left .leftContainer .project_title{
-display: flex;
-
-}
 
 
-.project .item .left .leftContainer h2{
-   font-size: 20px;
-   color: black;
-   margin-left: 5px;
-   width: 200px;
-   /* margin-top: -15px; */
-}
-.project .item .left .leftContainer p{
-   font-size: 13px;
-   
-}
-.project .item .left .leftContainer span{
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-
-.project .item .right{
-    flex: 8;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.project .item .right img{
-    width: 400px;
-    height: 300px;
-    /* transform: rotate(-10deg); */
-}
-
-.project .arrows{
-    color: #f5f5f5;
-}
 
 
 
