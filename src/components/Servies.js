@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 import java from '../images/java.png'
 import fitness from '../images/muscle.jpg'
 import nowflix from '../images/nowflix.png'
 import reactnative from '../images/ReactNative.jpg'
 import stock from '../images/stock_app.png'
+
 
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
 import "swiper/swiper-bundle.min.css";
@@ -56,7 +59,9 @@ class Services extends Component {
                 <div className="data">
                     <h3 className="project_title">Fitness Helper App</h3>
                     <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
-                  
+                    <a href="#" className="project_button">
+                        Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
+                    </a>
                 </div>   
             </SwiperSlide>
 
@@ -67,8 +72,10 @@ class Services extends Component {
             </div>
                 <div className="data">
                     <h3 className="project_title">Nowflix</h3>
-                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
-                   
+                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqi</p>
+                    <a href="#" className="project_button">
+                        Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
+                    </a>
                 </div>   
             </SwiperSlide>
 
@@ -79,8 +86,10 @@ class Services extends Component {
             </div>
                 <div className="data">
                     <h3 className="project_title">Stock App</h3>
-                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
-                   
+                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd</p>
+                    <a href="#" className="project_button">
+                        Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
+                    </a>
                 </div>   
             </SwiperSlide>
 
@@ -90,8 +99,10 @@ class Services extends Component {
             </div>
                 <div className="data">
                     <h3 className="project_title">Small React Native Apps</h3>
-                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
-                   
+                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqw</p>
+                    <a href="#" className="project_button">
+                        Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
+                    </a>
                 </div>   
             </SwiperSlide>
 
@@ -101,8 +112,10 @@ class Services extends Component {
             </div>
                 <div className="data">
                     <h3 className="project_title">Java Programming</h3>
-                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
-                   
+                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdq</p>
+                    <a href="#" className="project_button">
+                        Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
+                    </a>
                 </div>   
             </SwiperSlide>
 

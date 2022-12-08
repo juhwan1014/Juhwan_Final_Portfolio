@@ -1113,15 +1113,56 @@ margin-right: 10px;
 }
 
 .services .grid{
+    display: flex;
     width: 30%;
     height: 300px;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.514);
     
 }
 
+.services .data{
+    width: 70%;
+    padding-left: 20px;
+    padding-top: 10px;
+    position: relative;
+}
+.services .project_title{
+    margin-bottom: 10px;
+}
 .services .project_img{
-    width: 30%;
-    height: 30%;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    /* width: 30%;
+    height: 30%; */
+}
+
+.services .project_button{
+    display: inline-block;
+    background: #28231D;
+    color: #f5f5f5;
+    font-size: 15px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.services .project_button:hover{
+    color:#28231D;
+    font-weight: bolder;
+    border: solid #28231D 2px;
+    /* background: #f5f5f5;;;;; */
+    background: none;
+    text-shadow: 2px 5px 4px rgb(105, 105, 105);
+    cursor: pointer;
 }
 
 
