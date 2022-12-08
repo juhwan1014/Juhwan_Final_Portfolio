@@ -10,7 +10,7 @@
 }
 
 .max-width{
-    max-width: 1300px;
+    /* max-width: 1300px; */
     padding: 0 80px;
     margin: auto;
 }
@@ -815,7 +815,8 @@ margin-right: 10px;
     /* padding-top: 40px; */
     background-color: #28231D;
     padding-top: 150px;
-    margin-top: -50px;
+    margin-top: 100px;
+    /* margin-top: -50px; */
 }
 
 .teams .title{
@@ -942,9 +943,9 @@ margin-right: 10px;
     padding-bottom: 100px;
     overflow-x: hidden;
     height: 700px;
-    /* width: 100%; */
-    
-    
+    overflow-y: hidden;
+ 
+    /* width: 100%; */ 
 }
 
 
@@ -956,6 +957,7 @@ margin-right: 10px;
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu';
+    
     
   }
 
@@ -971,46 +973,156 @@ margin-right: 10px;
 }
 
 .experience .title::after{
-    content: "Skills & Tech Tools";
+    content: "Main Projects";
     position: absolute;
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    /* color: crimson; */
     color: #f5f5f5;
     font-weight: bold;
     text-shadow: 2px 2px 2px #000;
     padding: 5px;
-    /* background: white; */
     transform: translateX(-50%);
 }
 .experience .container{
     overflow: initial;
-    border: solid orange 5px;
+    width: 70%;
+    margin-top: 90px;
+   
+    /* margin-bottom: 90px; */
+  
+    /* border: solid green; */
+    /* border: solid orange 5px; */
 }
 
 .experience .grid{
-    padding: 0 1.5rem;
+    /* padding: 0 1.5rem; */
+}
+.experience .data{
+    
+    /* margin: 50px 200px 80px 200px; */
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+   
+}
+/* .experience .container .qwqwqwqwqw{
+    margin-top: 500px;
+    border: solid red 80px;
+} */
+
+.experience .img_wrapper{
+    text-align: center;
 }
 
-.experience .img{
-    width: 265px;
+.experience .project_img{
+    /* width: 265px; */
+    width: 60%;
+    height: 250px;
     border-radius: .5rem;
-    justify-self: center;
+    display: inline-block;
+
+    /* justify-self: center; */
+    
 }
 .experience .project_title{
     font-size: var(--h3-font-size);
-    margin-bottom: var(--mb-0-5)
+    /* margin-bottom: var(--mb-0-5) */
+    margin-bottom: 30px;
+    
 }
 
-.experience .project_button:hover .arrow_right{
+.experience .description{
+    margin-bottom: var(--mb-0-75);
+}
+
+/* .experience .project_button:hover .arrow_right{
     transform: translateX(.25rem);
+    
+} */
+
+
+.experience .project_button{
+    display: inline-block;
+    background: #28231D;
+    color: #f5f5f5;
+    font-size: 15px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.experience .project_button:hover{
+    color:#28231D;
+    font-weight: bolder;
+    border: solid #28231D 2px;
+    /* background: #f5f5f5;;;;; */
+    background: none;
+    text-shadow: 2px 5px 4px rgb(105, 105, 105);
+    cursor: pointer;
 }
 
 
 
 
 
+.services{
+    background-color: #f5f5f5;
+}
+.services .container{
+    padding-bottom: 100px;
+}
+
+.services .title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu';
+    margin-top: 80px;
+    
+  }
+
+  .services .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 280px;
+    height: 3px;
+    background: #28231D;
+    transform: translateX(-50%);
+}
+
+.services .title::after{
+    content: "Other Projects";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    font-size: 20px;
+    color: #f5f5f5;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+    padding: 5px;
+    transform: translateX(-50%);
+}
+
+.services .grid{
+    width: 30%;
+    height: 300px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.514);
+    
+}
+
+.services .project_img{
+    width: 30%;
+    height: 30%;
+}
 
 
 
@@ -1072,7 +1184,7 @@ margin-right: 10px;
 }
 
 .contact .title::after{
-    content: "Main Projects";
+    content: "Get In Touch";
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -1228,6 +1340,17 @@ margin-right: 10px;
 
 
   /*Responsive Media Query*/
+  @media (max-width: 1978px){
+    .experience .data{
+        margin-top: 50px;
+        margin-bottom: 80px;
+        margin-left: 250px;
+        margin-right: 250px;
+        
+       
+    }
+  }
+
 
 @media (max-width: 1300px){
     .about .about-content .left img{
@@ -1256,6 +1379,16 @@ margin-right: 10px;
 .project .arrows .arrow_right{
     margin-right: -90px;
 }
+
+.experience .data{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+   
+   
+}
+
 }
 
 @media (max-width: 1104px){
@@ -1282,6 +1415,15 @@ margin-right: 10px;
 }
 .project .arrows .arrow_right{
     margin-right: -90px;
+}
+
+.experience .data{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: 150px;
+    margin-right: 150px;
+   
+   
 }
  
    
@@ -1422,6 +1564,11 @@ margin-right: 10px;
         margin-right: -90px;
     }
 
+
+    .experience .data{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
    
 }
 
@@ -1477,6 +1624,11 @@ margin-right: 10px;
         margin-right: -90px;
     }
 
+    .experience .data{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
 }
 
 @media (max-width: 672px){
@@ -1515,25 +1667,31 @@ margin-right: 10px;
         .project .arrows .arrow_right{
             margin-right: -90px;
         }
+
+        .experience .data{
+            margin-left: 80px;
+            margin-right: 80px;
+        }
 }
 
 
 @media (max-width: 550px){
-
+   
+/* 
     .header{
         display: flex;
         background: url("./images/header.jpg") no-repeat center;
         background-size: cover;
         width: 100vh;
-        /* background-attachment: fixed; */
+        
         height: 120vh;
         color: #28231D;
         min-height: 500px;
         font-family: 'Josefin Sans', sans-serif;
-         /*배경화면 올리려고*/
+        
          margin-top: -20vh;
-         /* object-fit: cover; */
-    }
+        
+    } */
     /* .about{
         width: 100vh;
     }
@@ -1584,6 +1742,15 @@ margin-right: 10px;
         .project .arrows .arrow_right{
             margin-right: -90px;
         }
+
+        .experience .data{
+            margin-top: 30px;
+            margin-bottom: 40px;
+            margin-left: 50px;
+            margin-right: 50px;
+            
+           
+        }
 }
 
 @media (max-width: 468px){
@@ -1591,6 +1758,14 @@ margin-right: 10px;
         width: 150px;
         height: 50%;
     }  
+    .experience .data{
+        margin-top: 30px;
+        margin-bottom: 40px;
+        margin-left: 50px;
+        margin-right: 50px;
+      
+       
+    }
 }
 
 @media (max-width: 410px){

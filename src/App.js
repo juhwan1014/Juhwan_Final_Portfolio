@@ -9,6 +9,7 @@ import Teams from './components/Teams';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Qualification from './components/Qualification';
+import Services from './components/Servies';
 import Footer from './components/Footer';
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -27,7 +28,8 @@ function App() {
         <Qualification></Qualification>
         <Skills></Skills>
         <Experience></Experience>
-        <Teams></Teams>
+        <Services></Services>
+        {/* <Teams></Teams> */}
         <Contact></Contact>
         <Footer></Footer>
       </Route>

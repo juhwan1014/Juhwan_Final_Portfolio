@@ -1,5 +1,5 @@
 import React, { Component,useRef, useState } from 'react';
-import pixels from '../images/pixels.jpg';
+
 import Swift_ReactNative from '../images/Swift_ReactNative.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
@@ -7,6 +7,9 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import { data } from 'jquery';
 import $ from "jquery";
+
+import pixels from '../images/Swift_ReactNative.jpeg'
+
 // import { Swiper, SwiperSlide } from 'swiper/react';
 
 
@@ -21,6 +24,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination } from "swiper";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
+
+
+
 // import 'swiper/modules/effect-fade/effect-fade';
 // import "swiper/modules/navigation/navigation";
 // import "swiper/modules/pagination/pagination";
@@ -45,12 +51,9 @@ class Experience extends Component {
     
         return (<div className='experience'>
 
-<Swiper
+{/* <Swiper
       spaceBetween={50}
       slidesPerView={1}
-    //   centeredSlides
-    //   onSlideChange={() => console.log("slide change")}
-    //   onSwiper={swiper => console.log(swiper)}
     navigation={true}
     pagination={true}
     >
@@ -58,38 +61,33 @@ class Experience extends Component {
       <SwiperSlide>Slide 2</SwiperSlide>
       <SwiperSlide>Slide 3</SwiperSlide>
       <SwiperSlide>Slide 4</SwiperSlide>
-    </Swiper>
+    </Swiper> */}
     
 
-            {/* <h2 className="title">Projects</h2>
+            <h2 className="title">Projects</h2>
             
-           <div className="container">
+           <Swiper 
+           spaceBetween={50}
+           slidesPerView={1}
+           speed={1000}
+           scrollbar={{ draggable: true }}
+         navigation={true}
+         pagination={{ clickable: true }}
+         style={{
+            "--swiper-navigation-color": "#28231D",
+            "--swiper-pagination-color": "#28231D",
+            "--swiper-navigation-size": "70px",
+            "--swiper-navigation-weight": "900"
+         }}
+         className="container">
         
-<div>
-           <Swiper
-        cssMode={true}
-        navigation={true}
-        pagination={true}
-        mousewheel={true}
-        keyboard={true}
-        modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-        className="mySwiper"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
-      </div>
+            {/* <div className="qwqwqwqwqw"> */}
 
 
-            <div className="grid">
-                <img src="./images/mobile.png" alt="" className="project_img"></img>
+            <SwiperSlide className="grid">
+                <div className='img_wrapper'>
+                <img src={pixels} alt="" className="project_img"></img>
+                </div>
 
                 <div className="data">
                     <h3 className="project_title">Trusting Pixels</h3>
@@ -98,12 +96,13 @@ class Experience extends Component {
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
                 </div>   
+            </SwiperSlide>
+
+
+            <SwiperSlide className="grid">
+            <div className='img_wrapper'>
+                <img src="https://s3-us-west-2.amazonaws.com/jerry-uploads-prod/article/images/policy-insurance-car-cash-money-toy-vehicle-transport-auto-accident-examine-contract-safety_t20_zWOQ7Q.jpg" alt="" className="project_img"></img>
             </div>
-
-
-            <div className="grid">
-                <img src="./images/mobile.png" alt="" className="project_img"></img>
-
                 <div className="data">
                     <h3 className="project_title">Trusting Pixels</h3>
                     <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
@@ -111,12 +110,13 @@ class Experience extends Component {
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
                 </div>   
+            </SwiperSlide>
+
+
+            <SwiperSlide className="grid">
+            <div className='img_wrapper'>
+                <img src="https://ifh.cc/g/czNxTa.jpg" alt="" className="project_img"></img>
             </div>
-
-
-            <div className="grid">
-                <img src="./images/mobile.png" alt="" className="project_img"></img>
-
                 <div className="data">
                     <h3 className="project_title">Trusting Pixels</h3>
                     <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
@@ -124,13 +124,16 @@ class Experience extends Component {
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
                 </div>   
-            </div>
-
-           </div>
+            </SwiperSlide>
 
 
+            {/* </div> */}
 
- */}
+           </Swiper>
+
+
+
+
 
 
 
