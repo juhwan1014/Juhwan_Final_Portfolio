@@ -14,14 +14,14 @@ class About extends Component {
     render() { 
         return (
     <div className='about'>
-         <Lottie className="coffee"
+         {/* <Lottie className="coffee"
                                 speed={0.4}  
                                 options={{
                                     animationData: coffee,
                                     loop: true
                                 }} 
                                 
-                                />
+                                /> */}
        <div className="max-width">
            <h2 className="title">About Me</h2>
            <div className="about-content">

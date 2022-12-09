@@ -13,6 +13,7 @@
     /* max-width: 1300px; */
     padding: 0 80px;
     margin: auto;
+    
 }
 
 .App{
@@ -20,7 +21,8 @@
     /* background-color: #46413B; */
     /* background-color: #28231D  */ 
     /* background-color: #c2c0bc  */
-    background-color: #f5f5f5 
+    background-color: #f5f5f5 ;
+    
 }
 
 /* .heading-background{
@@ -163,6 +165,7 @@
 
 .header{
     display: flex;
+    width: 100%;
     background: url("./images/header.jpg") no-repeat center;
     background-size: cover;
     /* background-attachment: fixed; */
@@ -278,7 +281,7 @@
 
 
 
-.heading-background{
+/* .heading-background{
     position: fixed;
     opacity: 0.08;
     font-size: 24em;
@@ -286,7 +289,7 @@
     top:-0.5em;
     z-index: -100;
     color: crimson;
-  }
+  } */
 
 
 
@@ -1382,18 +1385,25 @@ margin-right: 10px;
 
   /*Responsive Media Query*/
   @media (max-width: 1978px){
+
+    /* .header .header-content{
+        position: relative;
+        margin-top: 75%;
+        right: 60%;
+    } */
+
     .experience .data{
         margin-top: 50px;
         margin-bottom: 80px;
         margin-left: 250px;
         margin-right: 250px;
-        
-       
     }
   }
 
 
 @media (max-width: 1300px){
+
+    
     .about .about-content .left img{
         height: 400px;
         width: 400px;
@@ -1717,7 +1727,10 @@ margin-right: 10px;
 
 
 @media (max-width: 550px){
-   
+   .App{
+    margin-right: -300px;
+   }
+
 /* 
     .header{
         display: flex;
