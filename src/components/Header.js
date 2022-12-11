@@ -22,6 +22,7 @@ class Header extends Component {
         return (
         
         <div className='header'>
+            
             {/* <h1 className='heading-background'>hahaha</h1> */}
                             <div className="steam">
                                 <Lottie
@@ -61,7 +62,8 @@ class Header extends Component {
             {/* <p>asdasdadsasdakdkasmkankcnkdmaksndkkndksqndkqsndkqsndkqnskdnqskdnkqsndkqsndkqnsd
                 qskdnqksdnkqsndkqsndkqnskdnqskdnlkqsndlkqndkqnskdnqskldnqksndklqnsdklsqndkqnkdn
                 qskdnqlksdnkqlnsdkqnskdnqkslndkqlsndkqnsdkqnsdklqnsdklnqskdnqksndkqsndknqsdq
-                sqdnqsndklqsndklqnsdklq
+                sqdnqsndklq
+                sndklqnsdklq
             </p> */}
         </div>);
     }
