@@ -1,12 +1,8 @@
-import React, { Component,useRef, useState } from 'react';
+import React, { Component } from 'react';
 
-import Swift_ReactNative from '../images/Swift_ReactNative.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
+
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
-import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
-import { data } from 'jquery';
-import $ from "jquery";
 
 import pixels from '../images/Swift_ReactNative.jpeg'
 
@@ -92,9 +88,7 @@ class Experience extends Component {
                 <div className="data">
                     <h3 className="project_title">Trusting Pixels</h3>
                     <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
-                    <a href="#" className="project_button">
-                        Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
-                    </a>
+                   <h4>*** For this project, I can't show code detail because of NDA(Non-disclosure agreement) ***</h4>
                 </div>   
             </SwiperSlide>
 
@@ -104,11 +98,9 @@ class Experience extends Component {
                 <img src="https://s3-us-west-2.amazonaws.com/jerry-uploads-prod/article/images/policy-insurance-car-cash-money-toy-vehicle-transport-auto-accident-examine-contract-safety_t20_zWOQ7Q.jpg" alt="" className="project_img"></img>
             </div>
                 <div className="data">
-                    <h3 className="project_title">Trusting Pixels</h3>
+                    <h3 className="project_title">UBI</h3>
                     <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
-                    <a href="#" className="project_button">
-                        Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
-                    </a>
+                    <h4>*** It was On-Going project, and only accessible within company laptop. ***</h4>
                 </div>   
             </SwiperSlide>
 
@@ -118,9 +110,9 @@ class Experience extends Component {
                 <img src="https://ifh.cc/g/czNxTa.jpg" alt="" className="project_img"></img>
             </div>
                 <div className="data">
-                    <h3 className="project_title">Trusting Pixels</h3>
+                    <h3 className="project_title">Note-App</h3>
                     <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
-                    <a href="#" className="project_button">
+                    <a href="https://github.com/juhwan1014/AWS_React_Note-Web-App_FrontEnd" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
                 </div>   

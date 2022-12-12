@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
-import { Link } from 'react-router-dom';
+import resume from "./JuhwanMoon_Resume.pdf"
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import me from '../images/me.jpeg'
-import Lottie from "reactjs-lottie";
-import coffee from "./coffee.json";
+
 
 
 
@@ -35,7 +34,7 @@ class About extends Component {
                    <div className="text"> I'm a <span>Junior Developer</span></div>
                    <p>2014 - 2020  :  Dankook University (Mobile System Engineering)</p>
                    <p>2020 - 2021  :  British Columbia Institute of Technology (Software Systems Developer)</p>
-                   <a href="#"><FontAwesomeIcon icon={faDownload} /> Resume</a>
+                   <a href={resume} download><FontAwesomeIcon icon={faDownload} /> Resume</a>
                </div>
             </div>
         </div>

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 // import { Link, animateScroll as scroll } from "react-scroll";
 import $ from "jquery";
-import logo from '../images/logo_juhwan.png'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMugHot} from '@fortawesome/free-solid-svg-icons'
+
 import { faBars} from '@fortawesome/free-solid-svg-icons'
 import { faTimes} from '@fortawesome/free-solid-svg-icons'
 // import { Link } from "react-router-dom"
@@ -67,7 +67,7 @@ class Navbar extends Component {
                 <div className="logo">
                 {/* <FontAwesomeIcon icon={faMugHot} /> */}
                     {/* <a href="#"><FaBars /></a> */}
-                <a href="#">Portfo<span>lio</span> 
+                <a href="/">Portfo<span>lio</span> 
                 {/* <FontAwesomeIcon icon={faMugHot} className="icon" /> */}
                 </a>
                 {/* <a href="#"><img src={logo}></img></a> */}

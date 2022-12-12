@@ -1,9 +1,9 @@
-import React, { Component, useEffect, useRef } from 'react';
+import React, { Component } from 'react';
 import { init } from 'ityped'
 // import Lottie from "lottie-react";
 import Lottie from "reactjs-lottie";
 import steam from "./steam2.json";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 // import {  } from "react";
 
 

@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
+
 
 
 
@@ -30,7 +30,7 @@ class Skills extends Component {
                        	<li>DynamoDB</li>
                        	<li>Low-code/Automation platforms (Outsystems, Blue Prism)</li>
                        </ul>
-                    <a href="#">Read more</a>
+                    <a href="https://github.com/juhwan1014">Go to Juhwan's github page</a>
                 </div>
                 <div className="column right">
                     <div className="bars">

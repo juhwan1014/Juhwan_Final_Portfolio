@@ -1,4 +1,4 @@
-import React, { Component, useRef } from 'react';
+import React, { Component } from 'react';
 import emailjs from '@emailjs/browser';
 
 class Contact extends Component {
@@ -21,7 +21,7 @@ class Contact extends Component {
         const sendEmail = (e) => {
 
 
-          if( this.state.name == "" || this.state.email == "" || this.state.user_message == "" ) {
+          if( this.state.name === "" || this.state.email === "" || this.state.user_message === "" ) {
             alert("Please, fill in the all areas.")
           }
           else{

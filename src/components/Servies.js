@@ -21,7 +21,7 @@ class Services extends Component {
     render() { 
         return (<div className='services'>
             
-            <h2 className="title"></h2>
+            <h2 className="title"> </h2>
             <Swiper 
         //    spaceBetween={50}
            effect={"coverflow"}
@@ -59,7 +59,7 @@ class Services extends Component {
                 <div className="data">
                     <h3 className="project_title">Fitness Helper App</h3>
                     <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
-                    <a href="#" className="project_button">
+                    <a href="https://github.com/juhwan1014/Fitness_Helper_App" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
                 </div>   
@@ -73,7 +73,7 @@ class Services extends Component {
                 <div className="data">
                     <h3 className="project_title">Nowflix</h3>
                     <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqi</p>
-                    <a href="#" className="project_button">
+                    <a href="https://github.com/juhwan1014/Nowflix-ios-App_Personal-Project" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
                 </div>   
@@ -87,7 +87,7 @@ class Services extends Component {
                 <div className="data">
                     <h3 className="project_title">Stock App</h3>
                     <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd</p>
-                    <a href="#" className="project_button">
+                    <a href="https://github.com/juhwan1014/Final-Mobile-Project_Stock_App" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
                 </div>   
@@ -100,7 +100,7 @@ class Services extends Component {
                 <div className="data">
                     <h3 className="project_title">Small React Native Apps</h3>
                     <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqw</p>
-                    <a href="#" className="project_button">
+                    <a href="https://github.com/juhwan1014/Football-Player-List-App_React_Native" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
                 </div>   
@@ -113,7 +113,7 @@ class Services extends Component {
                 <div className="data">
                     <h3 className="project_title">Java Programming</h3>
                     <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdq</p>
-                    <a href="#" className="project_button">
+                    <a href="https://github.com/juhwan1014/Base64_Encoding-decoding_Program" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
                 </div>   
