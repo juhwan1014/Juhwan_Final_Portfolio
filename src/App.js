@@ -5,7 +5,6 @@ import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
-import Teams from './components/Teams';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Qualification from './components/Qualification';
@@ -13,7 +12,7 @@ import Services from './components/Servies';
 import Footer from './components/Footer';
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import { BrowserRouter, Routes, Route} from "react-router-dom"
+import { BrowserRouter, Route} from "react-router-dom"
 
 function App() {
   return (
