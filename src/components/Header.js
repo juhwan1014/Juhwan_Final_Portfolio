@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { init } from 'ityped'
 // import Lottie from "lottie-react";
-import Lottie from "reactjs-lottie";
-import steam from "./steam2.json";
+// import Lottie from "reactjs-lottie";
+// import steam from "./steam2.json";
 import { Link } from "react-scroll";
 // import {  } from "react";
 
@@ -25,14 +25,14 @@ class Header extends Component {
             
             {/* <h1 className='heading-background'>hahaha</h1> */}
                             <div className="steam">
-                                <Lottie
+                                {/* <Lottie
                                 speed={0.4}  
                                 options={{
                                     animationData: steam,
                                     loop: true
                                 }} 
                                 
-                                />
+                                /> */}
                                 {/* <Lottie animationData={steam} loop={true} setSpeed={0.2} /> */}
                             </div>
             <div className="max-width">
