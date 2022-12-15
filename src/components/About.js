@@ -32,8 +32,14 @@ class About extends Component {
                    <p><div className='small_title'>Hobbies</div> : Soccer, Outdoor Activities & Sports, Board Game, Weight Training</p>
                    <p><div className='small_title'>Personality</div> : Positive, Spontaneous, intuitive</p>
                    <div className="text"> I'm a <span>Junior Developer</span></div>
-                   <p>2014 - 2020  :  Dankook University (Mobile System Engineering)</p>
-                   <p>2020 - 2021  :  British Columbia Institute of Technology (Software Systems Developer)</p>
+                   <ul className="introduce">
+                    <li>A full four-year scholarship in Dankook University</li>
+                    <li>Graduated from BCIT(British Columbia Institute of Technology)</li>
+                    <li>Industry("Trusting Pixels Inc.") Team Project Experience </li>
+                    <li>Full-Stack Developer Intern in ICBC(Insurance Coporation of  British Columbia)</li>
+                   </ul>
+                   {/* <p>A full four-year scholarship in Dankook University</p>
+                   <p>Graduated from BCIT(British Columbia Institute of Technology)</p> */}
                    <a href={resume} download><FontAwesomeIcon icon={faDownload} /> Resume</a>
                </div>
             </div>

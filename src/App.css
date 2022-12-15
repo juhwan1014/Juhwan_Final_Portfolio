@@ -407,13 +407,15 @@ border: solid orange 3px;
 }
 
 .about .about-content .left{
-    width: 45%;
+    width: 35%;
 }
 
 .about .about-content .left img{
    /* height: 400px; */
    /* width: 400px; */
-   width: 100%;
+   /* width: 100%;*/
+   /* width: auto; */
+   max-width: 100%;
    height: auto;
    object-fit: cover;
    border-radius: 10px;
@@ -437,7 +439,9 @@ border: solid orange 3px;
 }
 
 .about .about-content .right{
-    width: 55%; 
+    width: 65%; 
+    /* border: solid green; */
+    padding-left: 140px;
 }
 
 .about .about-content .right .text{
@@ -463,6 +467,15 @@ border: solid orange 3px;
     text-align: justify;
 }
 
+.about .introduce{
+    margin-left: 20px;
+    margin-top: 20px;
+} 
+.about .introduce li{
+    margin-top: 10px;
+    
+}
+
 .about .about-content .right a{
     display: inline-block;
     background: #28231D;
@@ -480,7 +493,7 @@ border: solid orange 3px;
     color: #282828;
     /* background: crimson; */
     background: none;
-    text-shadow: 2px 5px 4px rgb(105, 105, 105);
+    /* text-shadow: 2px 5px 4px rgb(105, 105, 105); */
     border: solid #28231D 2px;
 }
 
@@ -518,7 +531,9 @@ border: solid orange 3px;
   } */
 
 
-
+  .qualification{
+    margin-top: 100px;
+  }
 
   .qualification h2{
     position: relative;
@@ -2044,11 +2059,11 @@ margin-right: 10px;
 
 
 
-    .about .about-content .left img{
+    /* .about .about-content .left img{
         padding: 40px;
         height: 350px;
         width: 350px;
-     }
+     } */
 
      .project .container{
         padding-top: 70px;
@@ -2443,7 +2458,7 @@ margin-right: 10px;
         flex: 100%;
     }
     .qualification{
-        margin-top: 150px;
+        margin-top: 550px;
     }
     .skills{
         margin-top: 150px;
@@ -2815,6 +2830,10 @@ margin-right: 10px;
         cursor: pointer;
     }
 
+    .qualification{
+        margin-top: 700px;
+    }
+
 }
 
 
@@ -3037,6 +3056,10 @@ margin-right: 10px;
         margin-left: -25px;
     }
 
+    .qualification{
+        margin-top: 1000px;
+    }
+
     .project .item{
         width: 150px;
         height: 50%;
@@ -3118,6 +3141,10 @@ margin-right: 10px;
           background: none;
           text-shadow: 2px 5px 4px rgb(105, 105, 105);
           cursor: pointer;
+      }
+
+      .qualification{
+        margin-top: 1300px;
       }
 
     .project .item{
