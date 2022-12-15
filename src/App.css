@@ -2442,7 +2442,7 @@ margin-right: 10px;
 
 
 
-
+    
 
 
     .about .about-content .column{
@@ -2455,6 +2455,8 @@ margin-right: 10px;
     }
 
     .about .about-content .right{
+        /* justify-content: center; */
+        padding-left: 80px;
         flex: 100%;
     }
     .qualification{
@@ -3047,6 +3049,10 @@ margin-right: 10px;
         background: none;
         text-shadow: 2px 5px 4px rgb(105, 105, 105);
         cursor: pointer;
+    }
+
+    .about .about-content .left img{
+        height: 100%;
     }
    
 }
