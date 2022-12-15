@@ -3053,14 +3053,21 @@ margin-right: 10px;
 
 @media (max-width: 410px){
 
+    .header{
+      
+        height: 100vh;
+        
+    }
+   
     .footer p:nth-child(2){
-        width: 300px;
+        width: 200px;
      }
       .header-content{
           margin-left: -25px;
-          
       }
+
       .header .header-content .text_1{
+        
           font-size: 12px;
           margin-left: 1vw;
           margin-bottom: 20px;
@@ -3069,12 +3076,13 @@ margin-right: 10px;
       }
       
       .header .header-content .text_2{
+        
           font-size: 25px;
           font-weight: 900;
           margin-top: 20px;
           margin-left: 1vw;
           margin-bottom: 20px;
-          width: 210px;
+          width: 160px;
           
          
           }
@@ -3082,9 +3090,7 @@ margin-right: 10px;
       .header .header-content .text_3{
           margin-left: 1vw;
           font-size: 13px;
-          width: 210px;
-          
-         
+          width: 160px;
               }
       
       .header .header-content .text_3 span{
@@ -3120,3 +3126,69 @@ margin-right: 10px;
     }  
 }
 
+
+@media (max-width: 376px){
+
+    .header .header-content .text_1{
+        
+        font-size: 10px;
+        margin-left: 1vw;
+        margin-bottom: 20px;
+       
+       
+    }
+    
+    .header .header-content .text_2{
+ 
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: 20px;
+        margin-left: 1vw;
+        margin-bottom: 20px;
+        width: 130px;
+        
+       
+        }
+    
+    .header .header-content .text_3{
+        
+        margin-left: 1vw;
+        font-size: 11px;
+        width: 130px;
+            }
+}
+
+
+@media (max-width: 376px){
+
+    .header .header-content .text_1{
+        
+        font-size: 10px;
+        margin-left: 1vw;
+        margin-bottom: 20px;
+       
+       
+    }
+    
+    .header .header-content .text_2{
+ 
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: 20px;
+        margin-left: 1vw;
+        margin-bottom: 20px;
+        width: 130px;
+        
+       
+        }
+    
+    .header .header-content .text_3{
+        
+        margin-left: 1vw;
+        font-size: 11px;
+        width: 130px;
+            }
+
+
+            /* 여기서 부터 다시 작업해야할듯. 왜냐하면 퀄리피케이션에서 문제 생겨서 갭 발생  */
+}
