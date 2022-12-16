@@ -178,157 +178,6 @@
 
 
 
-/* .header .steam{
-    width: 30%;
-    position: relative;
-    display: flex;
-    left: 11%;
-    bottom: 18%;
-} */
-
-
-
-
-/* .header .max-width{ 
-    margin: 550px 40px auto auto;
-}
-
-.header .steam{
-    width: 30%;
-    position: relative;
-    display: flex;
-    left: 11%;
-    bottom: 18%;
-}
-
-.header .header-content .text_1{
-    font-size: 45px;
-    margin-bottom: 20px;
-}
-
-.header .header-content .text_2{
-    font-size: 110px;
-    font-weight: 900;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    }
-
-.header .header-content .text_3{
-    font-size: 60px;
-    width: 750px
-        }
-
-.header .header-content .text_3 span{
-    color: #f5f5f5;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px #000;
-}
-
-.header .header-content .contact_btn{
-    display: inline-block;
-    background: #28231D;
-    color: #f5f5f5;
-    font-size: 37px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-}
-
-.header .header-content .contact_btn:hover{
-    color:#28231D;
-    font-weight: bolder;
-    border: solid #28231D 2px;
-    background: none;
-    text-shadow: 2px 5px 4px rgb(105, 105, 105);
-    cursor: pointer;
-} */
-
-
-
-
-
-
-
-
-
-/* .header .max-width{
-    width: 50vw;
-    position: relative;
-    top: 10%;
-border: solid orange 3px;
-}
-
-.header .steam{
-    width: 30%;
-    position: relative;
-    display: flex;
-    left: 11%;
-    bottom: 18%;
-}
-
-
-
-.header .header-content .text_1{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.header .header-content .text_2{
-    font-size: 75px;
-    font-weight: 900;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    }
-
-.header .header-content .text_3{
-     
-    font-size: 40px;
-    width: 490px
-
-        }
-
-.header .header-content .text_3 span{
-    color: #f5f5f5;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px #000;
-}
-
-.header .header-content .contact_btn{
-    display: inline-block;
-    background: #28231D;
-    color: #f5f5f5;
-    font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-}
-
-.header .header-content .contact_btn:hover{
-    color:#28231D;
-    font-weight: bolder;
-    border: solid #28231D 2px;
-    background: none;
-    text-shadow: 2px 5px 4px rgb(105, 105, 105);
-    cursor: pointer;
-} */
-
-
-
-
-/* .heading-background{
-    position: fixed;
-    opacity: 0.08;
-    font-size: 24em;
-    left:-0.2em;
-    top:-0.5em;
-    z-index: -100;
-    color: crimson;
-  } */
-
-
-
 /*about Page Styling*/
 
 .about{
@@ -685,7 +534,7 @@ margin-right: 10px;
 
 .content_data_left{
     margin-left: 50%;
-   
+    padding-right: 5vw;
     height: 150px
 }
 .content_data_right{
@@ -1445,13 +1294,16 @@ margin-right: 10px;
   /*Responsive Media Query*/
   @media (max-width: 1978px){
 
-  
+ 
 
     .header .max-width{ 
-        width: 60vw;
+        width: 50vw;
         position: relative;
         top: 10%;
-        left: 5vw;
+        /* left: 20vw; */
+        left: 25vw;
+        
+
  
     }
 
@@ -1465,22 +1317,24 @@ margin-right: 10px;
 
     .header .header-content .text_1{
         font-size: 45px;
-        margin-left: 10vw;
+        margin-left: 0vw;
         margin-bottom: 20px;
+        /* width: 750px */
     }
     
     .header .header-content .text_2{
         font-size: 110px;
         font-weight: 900;
         margin-top: 20px;
-        margin-left: 10vw;
+        margin-left: 0vw;
         margin-bottom: 20px;
+        /* width: 750px */
         }
     
     .header .header-content .text_3{
-        margin-left: 10vw;
+        margin-left: 0vw;
         font-size: 60px;
-        width: 750px
+        /* width: 750px */
             }
     
     .header .header-content .text_3 span{
@@ -1498,7 +1352,7 @@ margin-right: 10px;
         margin-top: 20px;
         border-radius: 6px;
         transition: all 0.3s ease;
-        margin-left: 10vw;
+        margin-left: 0vw;
     }
     
     .header .header-content .contact_btn:hover{
@@ -1543,10 +1397,11 @@ margin-right: 10px;
 
   @media (max-width: 1687px){
     .header .max-width{ 
-        width: 60vw;
+        width: 50vw;
         position: relative;
         top: 10%;
-        left: 5vw;
+        left: 23vw;
+      
 
     }
 
@@ -1560,15 +1415,16 @@ margin-right: 10px;
 
     .header .header-content .text_1{
         font-size: 40px;
-        
+        /* width: 680px; */
         margin-bottom: 20px;
+        
     }
     
     .header .header-content .text_2{
         font-size: 100px;
         font-weight: 900;
         margin-top: 20px;
-       
+        /* width: 680px; */
         margin-bottom: 20px;
         }
     
@@ -1610,11 +1466,10 @@ margin-right: 10px;
 
   @media (max-width: 1564px){
     .header .max-width{ 
-        width: 60vw;
+        width: 50vw;
         position: relative;
         top: 10%;
-        left: 5vw;
-   
+        left: 25vw;
     }
 
     /* .header .steam{
@@ -1626,17 +1481,20 @@ margin-right: 10px;
     } */
 
     .header .header-content .text_1{
-        font-size: 30px;
         
+        font-size: 30px;
+        /* margin-left: 10vw; */
         margin-bottom: 20px;
     }
     
     .header .header-content .text_2{
+        
         font-size: 80px;
         font-weight: 900;
         margin-top: 20px;
        
         margin-bottom: 20px;
+        
         }
     
     .header .header-content .text_3{
@@ -1709,15 +1567,16 @@ margin-right: 10px;
 
   } */
 
-
+ 
 
 @media (max-width: 1325px){
 
     .header .max-width{ 
-        width: 60vw;
+        width: 50vw;
         position: relative;
         top: 10%;
         left: -5vw;
+        
    
     }
 
@@ -1729,12 +1588,12 @@ margin-right: 10px;
         bottom: 170px;
     } */
 
-    .header-content{
+    /* .header-content{
         margin-left: 45px;
        
        
        
-    }
+    } */
 
     .header .header-content .text_1{
         font-size: 30px;
@@ -1849,10 +1708,11 @@ margin-right: 10px;
 
 @media (max-width: 1199px){
     .header .max-width{ 
-        width: 60vw;
+        width: 50vw;
         position: relative;
         top: 10%;
-        left: -5vw;
+        left: 0vw;
+        
     }
 
     /* .header .steam{
@@ -1868,20 +1728,21 @@ margin-right: 10px;
         font-size: 20px;
         
         margin-bottom: 20px;
+       
     }
     
     .header .header-content .text_2{
         font-size: 60px;
         font-weight: 900;
         margin-top: 20px;
-       
+       width: 100%;
         margin-bottom: 20px;
         }
     
     .header .header-content .text_3{
         
         font-size: 35px;
-        width: 480px
+        width: 100%
             }
     
     .header .header-content .text_3 span{
@@ -1929,7 +1790,7 @@ margin-right: 10px;
 
 
     .header .max-width{ 
-        width: 60vw;
+        width: 50vw;
         position: relative;
         top: 10%;
         left: -5vw;
@@ -2600,12 +2461,24 @@ margin-right: 10px;
         text-shadow: 2px 5px 4px rgb(105, 105, 105);
         cursor: pointer;
     }
+    .qualification .quali_title{
+        font-size: large;
+        font-weight: bold;
+    }
+    /* .qualification .content_data_left{
+        padding-right: 5vw;
+    } */
+   .experience{
+    margin-top: 300px;
+   }
 }
 
 
 @media (max-width: 690px){
 
-
+    .header{
+        height: 100vh;
+    }
 
     .header-content{
         margin-left: 35px;
@@ -2972,6 +2845,9 @@ margin-right: 10px;
             margin-right: -90px;
         }
 
+        .experience{
+            margin-top: 500px;
+           }
         .experience .data{
             margin-top: 30px;
             margin-bottom: 40px;
@@ -3053,6 +2929,13 @@ margin-right: 10px;
 
     .about .about-content .left img{
         height: 100%;
+    }
+
+    .qualification .content_data_left{
+        margin-left: 20%;
+    }
+    .qualification .content_data_right{
+        margin-right: 20%;
     }
    
 }
@@ -3149,8 +3032,19 @@ margin-right: 10px;
           cursor: pointer;
       }
 
+      .about .about-content .right{
+        padding-left: 0px;
+      }
+
+      .about .about-content .right a{
+        font-size: 15px;
+        padding: 6px 18px;
+      }
+
+
       .qualification{
         margin-top: 1300px;
+        font-size: small;
       }
 
     .project .item{
@@ -3212,6 +3106,7 @@ margin-right: 10px;
         margin-bottom: 20px;
         width: 130px;
         
+        
        
         }
     
@@ -3221,7 +3116,63 @@ margin-right: 10px;
         font-size: 11px;
         width: 130px;
             }
+    
+
+    .about .title{
+        font-size: 20px;
+    }
+    .about .title::before{
+        width: 80px;
+        height: 1.5px;
+    }
+    .about .title::after{
+        bottom: -7px;
+        font-size: 10px;
+    }
+
+    .qualification .title{
+        font-size: 20px;
+    }
+    .qualification .title::before{
+        width: 80px;
+        height: 1.5px;
+    }
+    .qualification .title::after{
+        bottom: -7px;
+        font-size: 10px;
+    }
+
+    .skills .title{
+        font-size: 20px;
+    }
+    .skills .title::before{
+        width: 80px;
+        height: 1.5px;
+    }
+    .skills .title::after{
+        bottom: -7px;
+        font-size: 10px;
+    }
+
+    .experience .title{
+        font-size: 20px;
+    }
+    .experience .title::before{
+        width: 80px;
+        height: 1.5px;
+    }
+    .experience .title::after{
+        bottom: -7px;
+        font-size: 10px;
+    }
 
 
+    .qualification{
+        margin-top: 700px;
+        font-size: x-small;
+    }
+    .qualification .quali_title{
+        font-size: small;
+} 
             /* 여기서 부터 다시 작업해야할듯. 왜냐하면 퀄리피케이션에서 문제 생겨서 갭 발생  */
 }
