@@ -2403,6 +2403,13 @@ margin-right: 10px;
         text-shadow: 2px 5px 4px rgb(105, 105, 105);
         cursor: pointer;
     }
+    .skills .skills-content .left p{
+        text-align: left;
+    }
+
+    .skills .skills-content .left a{
+        font-size: 14px;
+    }
 
 }
 
@@ -2470,6 +2477,10 @@ margin-right: 10px;
     } */
    .experience{
     margin-top: 300px;
+   }
+
+   .skills .skills-content {
+    padding: 60px 0px;
    }
 }
 
@@ -2615,6 +2626,22 @@ margin-right: 10px;
             .skills{
                 margin-top: 180px;
             }
+
+            .skills .skills-content .left p{
+                font-size: medium;
+            }
+
+            .skills .skills-content .left li{
+               font-size: small;
+              }
+
+              .skills .skills-content .left a{
+                font-size: 8px;
+              }
+              .skills .skills-content .right span{
+                font-weight: bolder;
+                font-size: 13px;
+              }
 
             .project .container{
                 padding-top: 70px;
@@ -2823,6 +2850,33 @@ margin-right: 10px;
             .skills{
                 margin-top: 250px;
             }
+
+            
+            .skills .title::after{
+                bottom: -12px;
+                font-size: 18px;
+                width: 50vw;
+               
+            }
+
+            .skills .skills-content .left p{
+                font-size: small;
+            }
+
+            .skills .skills-content .left li{
+               font-size: x-small;
+              }
+
+              .skills .skills-content .left a{
+                font-size: 8px;
+                padding: 4px 8px;
+              }
+
+              .skills .skills-content .right span{
+                font-weight: bolder;
+                font-size: 8px;
+              }
+
             .project .container{
                 padding-top: 70px;
                 padding-bottom: 70px;
@@ -2937,6 +2991,29 @@ margin-right: 10px;
     .qualification .content_data_right{
         margin-right: 20%;
     }
+
+    .skills .skills-content .left p{
+        font-size: xx-small;
+    }
+
+    .skills .skills-content .left li{
+       font-size: xx-small;
+      }
+
+      .skills .skills-content .left a{
+        font-size: 8px;
+        padding: 4px 8px;
+      }
+
+      .skills .skills-content .right span{
+        font-weight: bolder;
+        font-size: 8px;
+      }
+      .skills .skills-content {
+    
+       padding: 60px 0px;
+      }
+      
    
 }
 
@@ -3083,6 +3160,11 @@ margin-right: 10px;
         font-size: 11px;
         width: 130px;
             }
+
+            .skills .skills-content {
+                width: 80vw;
+                margin-left: -42px;
+               }
 }
 
 
