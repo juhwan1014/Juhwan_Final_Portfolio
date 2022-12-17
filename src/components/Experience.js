@@ -86,8 +86,15 @@ class Experience extends Component {
                 </div>
 
                 <div className="data">
-                    <h3 className="project_title">Trusting Pixels</h3>
-                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
+                    <h3 className="project_title">Trusting Pixels - Mobile Application</h3>
+                    {/* <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p> */}
+                    <p className="description"><ul>
+                        <li>Modified React Native Code and added new code work</li>
+                        <li>Re-create Cognito, AWS Elastic Beanstalk</li>
+                        <li>Ejected React-Native code and made Camera function(Image Picker) in Swift</li>
+                        <li>Updated profile page and made setting menu </li>
+                        <li>Removed attributes from Cognito and made it possible to change the username</li>
+                        </ul></p>
                    <h4>*** For this project, I can't show code detail because of NDA(Non-disclosure agreement) ***</h4>
                 </div>   
             </SwiperSlide>
@@ -98,8 +105,17 @@ class Experience extends Component {
                 <img src="https://s3-us-west-2.amazonaws.com/jerry-uploads-prod/article/images/policy-insurance-car-cash-money-toy-vehicle-transport-auto-accident-examine-contract-safety_t20_zWOQ7Q.jpg" alt="" className="project_img"></img>
             </div>
                 <div className="data">
-                    <h3 className="project_title">UBI</h3>
-                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
+                    <h3 className="project_title">UBI(Usage Based Insurance) Project - Web Application</h3>
+                    <p className="description">
+                        <ul>
+                            <li>Developed Front End side</li>
+                            <li>Made each page authenticated</li>
+                            <li>Connected with SQL Database</li>
+                            <li>Constructed double layer validation system (Client Side & Server side)</li>
+                            <li>Implemented File Download System</li>
+                            <li>Made a Temporary Folder to improve the performance of download speed</li>
+                        </ul>
+                    </p>
                     <h4>*** It was On-Going project, and only accessible within company laptop. ***</h4>
                 </div>   
             </SwiperSlide>
@@ -110,8 +126,14 @@ class Experience extends Component {
                 <img src="https://ifh.cc/g/czNxTa.jpg" alt="" className="project_img"></img>
             </div>
                 <div className="data">
-                    <h3 className="project_title">Note-App</h3>
-                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
+                    <h3 className="project_title">Note_App - Web Application</h3>
+                    <p className="description"> <ul>
+                            <li>Serverless Project using AWS Services</li>
+                            <li>Four collections of items: a set of images/hyperlinks, a list of to-do items, and a set of notes</li>
+                            <li>React Web application Project</li>
+                            <li>Implemented Authentication Function</li>
+                            <li>Used AWS, Lambda, Cognito, S3 bucket, React, Node.js, DynamoDB</li>
+                        </ul></p>
                     <a href="https://github.com/juhwan1014/AWS_React_Note-Web-App_FrontEnd" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>

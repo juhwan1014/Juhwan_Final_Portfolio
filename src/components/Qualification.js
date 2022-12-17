@@ -74,6 +74,7 @@ class Qualification extends Component {
                             </div>
 
                         </div>
+                    
                         {/* =====================Content Data 3====================== */}
                         <div className="content_data">
                             <div className="content_data_left">
