@@ -6,8 +6,8 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import java from '../images/java.png'
 import fitness from '../images/muscle.jpg'
 import nowflix from '../images/nowflix.png'
-import reactnative from '../images/ReactNative.jpg'
 import stock from '../images/stock_app.png'
+import parlez from '../images/PARLEZ.png'
 
 
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
@@ -58,7 +58,11 @@ class Services extends Component {
 
                 <div className="data">
                     <h3 className="project_title">Fitness Helper App</h3>
-                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p>
+                    <p className="description"><ul>
+                        <li>ReactJs, RapidAPI, Personal Project</li>
+                        <li>Provides exercise search function, various exercise methods, stimulation area, and exercise video</li>
+                        <li>On going personal project</li>
+                        </ul></p>
                     <a href="https://github.com/juhwan1014/Fitness_Helper_App" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
@@ -72,7 +76,11 @@ class Services extends Component {
             </div>
                 <div className="data">
                     <h3 className="project_title">Nowflix</h3>
-                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqi</p>
+                    <p className="description"><ul>
+                        <li>Swift, Firebase, TMDB API, Apple Itunes API, Personal Project</li>
+                        <li>Provides movie search function, movie information, short movie video clips, and search history function</li>
+                        <li>Sign in/ Sign up functions with Firebase</li>
+                        </ul></p>
                     <a href="https://github.com/juhwan1014/Nowflix-ios-App_Personal-Project" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
@@ -86,7 +94,11 @@ class Services extends Component {
             </div>
                 <div className="data">
                     <h3 className="project_title">Stock App</h3>
-                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd</p>
+                    <p className="description"><ul>
+                        <li>React Native, Firebase, FinnHub API, Group Project(FrontEnd App Design)</li>
+                        <li>Provides Stock data, and selling and buying system, manage own stock items</li>
+                        <li>Sign in/ Sign up functions with Firebase</li>
+                        </ul></p>
                     <a href="https://github.com/juhwan1014/Final-Mobile-Project_Stock_App" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
@@ -95,12 +107,16 @@ class Services extends Component {
 
             <SwiperSlide className="grid">
             <div className='img_wrapper'>
-                <img src={reactnative} alt="" className="project_img"></img>
+                <img src={parlez} alt="" className="project_img"></img>
             </div>
                 <div className="data">
-                    <h3 className="project_title">Small React Native Apps</h3>
-                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqw</p>
-                    <a href="https://github.com/juhwan1014/Football-Player-List-App_React_Native" className="project_button">
+                    <h3 className="project_title">PARLEZ(Chat Web Application)</h3>
+                    <p className="description"><ul>
+                        <li>React, .Net API, Group Project(FrontEnd App Design)</li>
+                        <li>Provides common chatroom to post messages, read and delete existing messages</li>
+                        <li>Sign in/ Sign up functions with Firebase</li>
+                        </ul></p>
+                    <a href="https://github.com/juhwan1014/PARLEZ_Chat-Web-App" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
                 </div>   
@@ -112,7 +128,11 @@ class Services extends Component {
             </div>
                 <div className="data">
                     <h3 className="project_title">Java Programming</h3>
-                    <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdq</p>
+                    <p className="description"><ul>
+                        <li>React Native, Firebase, FinnHub API, Group Project</li>
+                        <li>Provides Stock data, and selling and buying system, manage own stock items</li>
+                        <li>Sign in/ Sign up functions with Firebase</li>
+                        </ul></p>
                     <a href="https://github.com/juhwan1014/Base64_Encoding-decoding_Program" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
                     </a>
