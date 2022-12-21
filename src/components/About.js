@@ -5,11 +5,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import me from '../images/me.jpeg'
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 
 
 
 class About extends Component {
-    state = {  }
+    componentDidMount() {
+        Aos.init({ duration: 2000 });
+      }
+  
     render() { 
         return (
     <div className='about'>
@@ -27,7 +33,7 @@ class About extends Component {
                <div className="column left">
                <img src={me} alt={"me"}></img>
                 </div>
-               <div className="column right">
+               <div data-aos="fade-left" className="column right">
                    <div className="text">I'm Juhwan Moon </div>
                    <p><div className='small_title'>Hobbies</div> : Soccer, Outdoor Activities & Sports, Board Game, Weight Training</p>
                    <p><div className='small_title'>Personality</div> : Positive, Spontaneous, intuitive</p>

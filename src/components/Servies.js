@@ -75,7 +75,7 @@ class Services extends Component {
                 <img src={nowflix} alt="" className="project_img"></img>
             </div>
                 <div className="data">
-                    <h3 className="project_title">Nowflix</h3>
+                    <h3 className="project_title">Nowflix(Movie App)</h3>
                     <p className="description"><ul>
                         <li>Swift, Firebase, TMDB API, Apple Itunes API, Personal Project</li>
                         <li>Provides movie search function, movie information, short movie video clips, and search history function</li>
@@ -110,7 +110,7 @@ class Services extends Component {
                 <img src={parlez} alt="" className="project_img"></img>
             </div>
                 <div className="data">
-                    <h3 className="project_title">PARLEZ(Chat Web Application)</h3>
+                    <h3 className="project_title">PARLEZ(Chat App)</h3>
                     <p className="description"><ul>
                         <li>React, .Net API, Group Project(FrontEnd App Design)</li>
                         <li>Provides common chatroom to post messages, read and delete existing messages</li>
