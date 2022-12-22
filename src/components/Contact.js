@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import emailjs from '@emailjs/browser';
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 class Contact extends Component {
     constructor(props) {
         super(props);
@@ -11,6 +14,12 @@ class Contact extends Component {
             user_message: ""
         }
       }
+
+
+      componentDidMount() {
+        Aos.init({ duration: 2000 });
+      }
+
 
     render() { 
 
@@ -73,11 +82,11 @@ class Contact extends Component {
             <h2 className="title">Contact</h2>
             <div className="contact_wraper">
           
-            <div className="left">
+            <div className="left" data-aos="fade-up">
                 <img src="https://raw.githubusercontent.com/safak/youtube/da700015c8a88050fad7b961e99a7039638ab3b2/public/assets/shake.svg" alt=""></img>
             </div>
 
-            <div className="right">
+            <div className="right" data-aos="fade-up">
                 <h2>Please, <br></br>leave a message below. </h2>
                 {/* <form onSubmit={handleSubmit}> */}
                 <form ref={form} onSubmit={sendEmail}>

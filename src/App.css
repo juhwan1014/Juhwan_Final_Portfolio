@@ -1000,7 +1000,7 @@ margin-right: 10px;
 }
 .services .container{
     padding-bottom: 100px;
-    margin-left: -100px;
+    /* margin-left: -100px; */
     /* border: solid red; */
 }
 
@@ -1058,7 +1058,10 @@ margin-right: 10px;
 .services .data .description{
  position: absolute;
 top: 15%;
+right: 1%;
+left: 10%;
 bottom: 5%;
+
 }
 .services .data .description li{
   margin-bottom: 10px;
@@ -1089,8 +1092,8 @@ bottom: 5%;
     border-radius: 6px;
     transition: all 0.3s ease;
     position: absolute;
-    right: 20px;
-    bottom: 20px;
+    right: 5%;
+    bottom: 5%;
 }
 
 .services .project_button:hover{
@@ -1108,9 +1111,7 @@ bottom: 5%;
 
 
 .contact{
-    margin-top: 400px;
-    
-   
+    margin-top: 300px;
 }
 
 .contact_wraper{
@@ -1789,8 +1790,7 @@ bottom: 5%;
         padding: 12px 36px;
         margin-top: 20px;
         border-radius: 6px;
-        transition: all 0.3s ease;
-        
+        transition: all 0.3s ease; 
     }
     
     .header .header-content .contact_btn:hover{
@@ -1800,6 +1800,9 @@ bottom: 5%;
         background: none;
         text-shadow: 2px 5px 4px rgb(105, 105, 105);
         cursor: pointer;
+    }
+    .services .grid{
+        height: 380px;
     }
 
 }
@@ -1991,11 +1994,9 @@ bottom: 5%;
 .services .data .description{
     padding-right: 10px;
 }
- 
+
+
    
-
-
-
 }
 
 /* @media (max-width: 1020px){
@@ -2123,6 +2124,9 @@ bottom: 5%;
 }
 .project .arrows .arrow_right{
     margin-right: -90px;
+}
+.services .project_button{
+    padding: 6px 18px;
 }
 }
         
@@ -2383,6 +2387,15 @@ bottom: 5%;
         margin-left: 100px;
         margin-right: 100px;
     }
+
+    .services .grid{
+        width: 50%;
+        
+    }
+    .services .container{
+        margin-left: -50px;
+    }
+   
    
 }
 
@@ -2449,16 +2462,25 @@ bottom: 5%;
         font-size: 14px;
     }
     .services .data .description li{
-        font-size: 10px;
+        font-size: 10%;
         margin-top: 20px;
     }
     
     .services .data .description{
         padding-right: 10px;
+       
     }
     .services .project_button{
         font-size: 10px;
     }
+    /* .services .grid{
+        height: auto;
+    } */
+    /* .services .project_button{
+        font-size: 10px;
+        padding: 3px 9px;
+    } */
+   
 }
 
 @media (max-width: 742px){
@@ -2718,6 +2740,12 @@ bottom: 5%;
             margin-left: 80px;
             margin-right: 80px;
         }
+        .services .grid{
+            width: 55%;
+        } 
+        .services .container{
+            margin-left: -70px;
+        }
 }
 
 
@@ -2957,6 +2985,24 @@ bottom: 5%;
             margin-right: 50px;
             
            
+        }
+        .services .project_title{
+            font-size: 5px;
+        } 
+        .services .data .description li{
+            font-size: 0.05em;
+        }
+       
+        .services .project_button{
+            padding: 6px 18px;
+        }
+
+
+        .services .grid{
+            width: 60%;
+        } 
+        .services .container{
+            margin-left: -40px;
         }
 }
 
