@@ -2552,6 +2552,11 @@ bottom: 5%;
    .skills .skills-content {
     padding: 60px 0px;
    }
+   .contact .left{
+    display: none;
+   }.contact .right{
+    flex-basis: 100%;
+   }
 }
 
 
