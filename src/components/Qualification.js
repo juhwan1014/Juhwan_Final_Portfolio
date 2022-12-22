@@ -3,22 +3,27 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons'
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 
 class Qualification extends Component {
     
-    state = {}
+    componentDidMount() {
+        Aos.init({ duration: 2000 });
+      }
 
     
     render() {
+        
 
         
         return (<div className='qualification'>
 
             <h2 className="title">Qualification</h2>
 
-            <div className="container">
+            <div data-aos="zoom-in-up" className="container">
                 <div className="tabs">
                     <div className="button--flex qualification__active" data-target="#education">
                         {/* <i className="uil uil-graduation-cap qualification__icon"></i> */}

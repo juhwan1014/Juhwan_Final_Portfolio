@@ -1,11 +1,15 @@
 
 import React, { Component } from 'react';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 
 
 class Skills extends Component {
-    state = {}
+    componentDidMount() {
+        Aos.init({ duration: 2000 });
+      }
     render() {
         return (<div className="skills" >
             <div className="max-width">
@@ -15,7 +19,7 @@ class Skills extends Component {
              
             <div className="skills-content">
          
-                <div className="column left">
+                <div data-aos="flip-right" className="column left">
                     {/* <div className="text">
                         My creative skills and experiences.</div> */}
                     {/* <p>
@@ -32,7 +36,7 @@ class Skills extends Component {
                        </ul>
                     <a href="https://github.com/juhwan1014">Go to Juhwan's github page</a>
                 </div>
-                <div className="column right">
+                <div data-aos="flip-left" className="column right">
                     <div className="bars">
                         <div className="info">
                             <span>HTML</span>

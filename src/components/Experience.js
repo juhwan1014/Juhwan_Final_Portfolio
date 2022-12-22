@@ -20,6 +20,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination } from "swiper";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 
@@ -37,7 +39,9 @@ class Experience extends Component {
             currentSlide: 0,
         };
     }
-
+    componentDidMount() {
+        Aos.init({ duration: 2000 });
+      }
 
 
   
@@ -75,7 +79,7 @@ class Experience extends Component {
             "--swiper-navigation-size": "70px",
             "--swiper-navigation-weight": "900"
          }}
-         className="container">
+         className="container" data-aos="fade-up">
         
             {/* <div className="qwqwqwqwqw"> */}
 

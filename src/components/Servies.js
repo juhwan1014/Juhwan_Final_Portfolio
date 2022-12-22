@@ -14,10 +14,17 @@ import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 SwiperCore.use([EffectCoverflow, Pagination]);
 
 class Services extends Component {
-    state = {  }
+    
+    componentDidMount() {
+        Aos.init({ duration: 1000 });
+      }
+
     render() { 
         return (<div className='services'>
             
@@ -44,7 +51,7 @@ class Services extends Component {
             "--swiper-navigation-size": "70px",
             "--swiper-navigation-weight": "900"
          }}
-         className="container">
+         className="container"data-aos="fade-up">
             
 
 
