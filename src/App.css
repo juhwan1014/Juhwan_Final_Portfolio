@@ -3175,7 +3175,7 @@ bottom: 5%;
        
     }
     .services .data .description li{
-        font-size: 0.05em;
+        font-size: 1em;
         border: solid green;
     }
 }
