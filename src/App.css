@@ -3024,6 +3024,7 @@ bottom: 5%;
         } 
         .services .data .description li{
             font-size: 0.05em;
+            border: solid red;
         }
        
         .services .project_button{
@@ -3145,7 +3146,10 @@ bottom: 5%;
        padding: 60px 0px;
       }
       
-   
+      .services .data .description li{
+        font-size: 0.05em;
+        border: solid orange;
+    }
 }
 
 @media (max-width: 468px){
@@ -3169,6 +3173,10 @@ bottom: 5%;
         margin-right: 50px;
       
        
+    }
+    .services .data .description li{
+        font-size: 0.05em;
+        border: solid green;
     }
 }
 
