@@ -1,29 +1,28 @@
 import React, { Component } from 'react';
-
+import { Swiper, SwiperSlide } from "swiper/react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 import pixels from '../images/Swift_ReactNative.jpeg'
 
-// import { Swiper, SwiperSlide } from 'swiper/react';
-
-
-// import 'swiper/swiper-bundle.min.css'
-// import 'swiper/swiper.min.css'
-
-// import 'swiper/components/pagination/pagination.min.css'
-// import 'swiper/components/navigation/navigation.min.css'
-// import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
-
-import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Navigation, Pagination } from "swiper";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-
+// aksmdkasmdkmaskdmkamsdkamsd
+// asdmaksmdksmdksamdaksmdkasmd
+// sakdmaskdmkasmdksmdkasmdkasmd
+// asdmaksdmkasmdkasmdkasmdkasmd
+// kasdmaksdmkasmdkasmdkasmd
+// aksdmkasdmkasdmkasmdasmdkasmd
+// sakdmaskdmaksdmaksdmaksdmaksmd
+// asmdkasmdkasmdkasmdkasmdkasmd
+// kasdmaksdmkasmdkasmdkasmdsakmdkasmdk
+// askdmaskmdasdmwdmsakdm
+// askdmaskdwqdksamdasdamskdmkaspasd
 
 // import 'swiper/modules/effect-fade/effect-fade';
 // import "swiper/modules/navigation/navigation";
@@ -74,10 +73,10 @@ class Experience extends Component {
          navigation={true}
          pagination={{ clickable: true }}
          style={{
-            // "--swiper-navigation-color": "#28231D",
-            // "--swiper-pagination-color": "#28231D",
-            "--swiper-navigation-color": "#f5f5f5",
-            "--swiper-pagination-color": "#f5f5f5",
+            "--swiper-navigation-color": "#28231D",
+            "--swiper-pagination-color": "#28231D",
+            // "--swiper-navigation-color": "#f5f5f5",
+            // "--swiper-pagination-color": "#f5f5f5",
             "--swiper-navigation-size": "70px",
             "--swiper-navigation-weight": "900"
          }}
@@ -149,12 +148,6 @@ class Experience extends Component {
             {/* </div> */}
 
            </Swiper>
-
-
-
-
-
-
 
 
 

@@ -580,10 +580,25 @@ margin-right: 10px;
     /* margin-top: 700px; */
     /* margin-top: 200px; */
     /* color: #f5f5f5; */
-    margin-top: 200px;
+    /* margin-top: 200px; */
     color: #28231D;
     height: 700px;
+    background: url("./images/leone.jpg") no-repeat center;
+    background-size: cover;
+   margin-bottom: 100px;
+    width: auto;
+    position: relative;
+    isolation: isolate;
     
+}
+
+.skills::after{
+    content: '';
+    position: absolute;
+    background: white;
+    z-index: -1;
+    inset: 0;
+    opacity: .5;
 }
 
   .skills .skills-content{
@@ -601,6 +616,7 @@ margin-right: 10px;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
+    padding-top: 150px;
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu';
@@ -878,6 +894,8 @@ margin-right: 10px;
     overflow-x: hidden;
     height: 1000px;
     overflow-y: hidden;
+    /* background: url("./images/mukul.jpg") no-repeat center;
+    background-size: cover; */
  
     /* width: 100%; */ 
 }
@@ -889,6 +907,7 @@ margin-right: 10px;
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
+    padding-top: 70px;
     padding-bottom: 20px;
     font-family: 'Ubuntu';
     
@@ -1028,7 +1047,9 @@ margin-right: 10px;
 .services{
     background-color: #f5f5f5;
     font-family: 'Ubuntu';
+    
 }
+
 .services .container{
     padding-bottom: 100px;
     /* margin-left: -100px; */
@@ -2305,9 +2326,10 @@ bottom: 5%;
     }
     .qualification{
         /* margin-top: 550px; */
+        height: 1000px;
     }
     .skills{
-        margin-top: 150px;
+        /* margin-top: 150px; */
     }
     .teams{
         margin-top: 150px;
@@ -2650,7 +2672,7 @@ bottom: 5%;
         cursor: pointer;
     }
             .skills{
-                margin-top: 180px;
+                /* margin-top: 180px; */
             }
 
             .skills .skills-content .left p{
@@ -2882,7 +2904,7 @@ bottom: 5%;
 
 
             .skills{
-                margin-top: 250px;
+                /* margin-top: 250px; */
             }
 
             
@@ -3331,5 +3353,5 @@ bottom: 5%;
     .qualification .quali_title{
         font-size: small;
 } 
-            /* 여기서 부터 다시 작업해야할듯. 왜냐하면 퀄리피케이션에서 문제 생겨서 갭 발생  */
+           
 }
