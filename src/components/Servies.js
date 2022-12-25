@@ -136,9 +136,10 @@ class Services extends Component {
                 <div className="data">
                     <h3 className="project_title">Java Programming</h3>
                     <p className="description"><ul>
-                        <li>React Native, Firebase, FinnHub API, Group Project</li>
-                        <li>Provides Stock data, and selling and buying system, manage own stock items</li>
-                        <li>Sign in/ Sign up functions with Firebase</li>
+                        <li>Base 64 Encoding & Decoding Program</li>
+                        <li>Resource Map Simulator</li>
+                        <li>DES Encryption Project</li>
+                        <li>Class Hierarchy Practice Project</li>
                         </ul></p>
                     <a href="https://github.com/juhwan1014/Base64_Encoding-decoding_Program" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
