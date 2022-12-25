@@ -892,8 +892,8 @@ margin-right: 10px;
     overflow-x: hidden;
     height: 900px;
     overflow-y: hidden;
-    /* background: url("./images/tablecoffee.jpg")no-repeat center;
-    background-size: cover; */
+    background: url("./images/coffeeleaf.jpg")no-repeat center;
+    background-size: cover;
      width: auto;
     position: relative;
     isolation: isolate;
@@ -904,7 +904,7 @@ margin-right: 10px;
     background: white;
     z-index: -1;
     inset: 0;
-    opacity: .5;
+    opacity: .7;
 }
 
 
