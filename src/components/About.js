@@ -27,6 +27,7 @@ class About extends Component {
                                 }} 
                                 
                                 /> */}
+    
        <div className="max-width">
            <h2 className="title">About Me</h2>
            <div className="about-content">
@@ -39,10 +40,10 @@ class About extends Component {
                    <p><div className='small_title'>Personality</div> : Positive, Spontaneous, intuitive</p>
                    <div className="text"> I'm a <span>Junior Developer</span></div>
                    <ul className="introduce">
-                    <li>A full four-year scholarship in Dankook University</li>
-                    <li>Graduated from BCIT(British Columbia Institute of Technology)</li>
-                    <li>Industry("Trusting Pixels Inc.") Team Project Experience </li>
-                    <li>Full-Stack Developer Intern in ICBC(Insurance Coporation of  British Columbia)</li>
+                    <li><span>A full four-year scholarship</span> in Dankook University</li>
+                    <li>Graduated from <span>BCIT</span>(British Columbia Institute of Technology)</li>
+                    <li><span>Industry</span>("Trusting Pixels Inc.") Team Project Experience </li>
+                    <li>Full-Stack Developer Intern in <span>ICBC</span>(Insurance Coporation of  British Columbia)</li>
                    </ul>
                    {/* <p>A full four-year scholarship in Dankook University</p>
                    <p>Graduated from BCIT(British Columbia Institute of Technology)</p> */}
@@ -64,7 +65,7 @@ class About extends Component {
           
  {/*           {data.ShowAboutImage ? <img src={data.aboutImage} alt='about iamge'></img> : null}
     */}        
-
+            
         </div>  );
     }
 }

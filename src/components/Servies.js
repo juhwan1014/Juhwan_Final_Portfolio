@@ -43,7 +43,7 @@ class Services extends Component {
           slideShadows: true
            }}
 
-           speed={1000}
+           speed={500}
         //    modules={[EffectCoverflow, Pagination]}
            pagination={{ clickable: true }}
            style={{

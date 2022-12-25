@@ -74,8 +74,10 @@ class Experience extends Component {
          navigation={true}
          pagination={{ clickable: true }}
          style={{
-            "--swiper-navigation-color": "#28231D",
-            "--swiper-pagination-color": "#28231D",
+            // "--swiper-navigation-color": "#28231D",
+            // "--swiper-pagination-color": "#28231D",
+            "--swiper-navigation-color": "#f5f5f5",
+            "--swiper-pagination-color": "#f5f5f5",
             "--swiper-navigation-size": "70px",
             "--swiper-navigation-weight": "900"
          }}
@@ -93,11 +95,10 @@ class Experience extends Component {
                     <h3 className="project_title">Trusting Pixels - Mobile Application</h3>
                     {/* <p className="description">lasdasda asdasdad asdsdrbrwfe wededqidqnd qedqdjqeidqwd qwdqwdjqiwd qwdjqwdniqwnd qwdjqwidjiqwd wqidjqiwdqwd qwdjqwd qwidjqiwd widjwiqd qwdjqiwdn wjjqwidqw dn</p> */}
                     <p className="description"><ul>
-                        <li>Modified React Native Code and added new code work</li>
-                        <li>Re-create Cognito, AWS Elastic Beanstalk</li>
-                        <li>Ejected React-Native code and made Camera function(Image Picker) in Swift</li>
-                        <li>Updated profile page and made setting menu </li>
-                        <li>Removed attributes from Cognito and made it possible to change the username</li>
+                        <li>Modified <span>React Native</span> Code and added new code work</li>
+                        <li>Ejected React-Native code and made Camera function(Image Picker) in <span>Swift</span></li>
+                        <li><span>Improved UX</span> by making about <span>20%</span> of existing UI</li>
+                        <li>Re-create <span>Cognito</span> and made it possible to change the username</li>
                         </ul></p>
                    <h4>*** For this project, I can't show code detail because of NDA(Non-disclosure agreement) ***</h4>
                 </div>   
@@ -112,12 +113,12 @@ class Experience extends Component {
                     <h3 className="project_title">UBI(Usage Based Insurance) Project - Web Application</h3>
                     <p className="description">
                         <ul>
-                            <li>Developed Front End side</li>
-                            <li>Made each page authenticated</li>
-                            <li>Connected with SQL Database</li>
-                            <li>Constructed double layer validation system (Client Side & Server side)</li>
-                            <li>Implemented File Download System</li>
-                            <li>Made a Temporary Folder to improve the performance of download speed</li>
+                            <li>Developed <span>Front End</span> side</li>
+                            <li>Made each page <span>authenticated</span></li>
+                            <li>Connected with <span>SQL</span> Database</li>
+                            <li>Constructed double layer <span>validation</span> system (Client Side & Server side)</li>
+                            <li>Implemented <span>File Download System</span></li>
+                            <li>Made a Temporary Folder to improve the performance of <span>download speed</span></li>
                         </ul>
                     </p>
                     <h4>*** It was On-Going project, and only accessible within company laptop. ***</h4>
@@ -132,11 +133,11 @@ class Experience extends Component {
                 <div className="data">
                     <h3 className="project_title">Note_App - Web Application</h3>
                     <p className="description"> <ul>
-                            <li>Serverless Project using AWS Services</li>
+                            <li>Serverless Project using <span>AWS</span> Services</li>
                             <li>Four collections of items: a set of images/hyperlinks, a list of to-do items, and a set of notes</li>
-                            <li>React Web application Project</li>
-                            <li>Implemented Authentication Function</li>
-                            <li>Used AWS, Lambda, Cognito, S3 bucket, React, Node.js, DynamoDB</li>
+                            <li><span>React</span> Web application Project</li>
+                            <li>Implemented <span>sign-up/in</span> function with user managing system</li>
+                            <li>Used AWS Lambda, Cognito, S3 bucket, Node.js, DynamoDB</li>
                         </ul></p>
                     <a href="https://github.com/juhwan1014/AWS_React_Note-Web-App_FrontEnd" className="project_button">
                         Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right"/>
