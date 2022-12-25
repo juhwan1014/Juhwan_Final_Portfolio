@@ -22,7 +22,7 @@ SwiperCore.use([EffectCoverflow, Pagination]);
 class Services extends Component {
     
     componentDidMount() {
-        Aos.init({ duration: 1000 });
+        Aos.init({ duration: 500 });
       }
 
     render() { 
