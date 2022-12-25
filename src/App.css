@@ -200,7 +200,7 @@
     background: white;
     z-index: -1;
     inset: 0;
-    opacity: .5;
+    opacity: .7;
 }
 
 
@@ -582,14 +582,13 @@ margin-right: 10px;
     /* color: #f5f5f5; */
     /* margin-top: 200px; */
     color: #28231D;
-    height: 700px;
+    height: 900px;
     background: url("./images/leone.jpg") no-repeat center;
     background-size: cover;
-   margin-bottom: 100px;
+   /* margin-bottom: 100px; */
     width: auto;
     position: relative;
-    isolation: isolate;
-    
+    isolation: isolate; 
 }
 
 .skills::after{
@@ -598,7 +597,7 @@ margin-right: 10px;
     background: white;
     z-index: -1;
     inset: 0;
-    opacity: .5;
+    opacity: .7;
 }
 
   .skills .skills-content{
@@ -888,14 +887,13 @@ margin-right: 10px;
 
 /*Experience Page Styling*/
 .experience{
-    
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding-bottom: 100px;
     overflow-x: hidden;
     height: 900px;
     overflow-y: hidden;
-    background: url("./images/tablecoffee.jpg")no-repeat center;
-    background-size: cover;
+    /* background: url("./images/tablecoffee.jpg")no-repeat center;
+    background-size: cover; */
      width: auto;
     position: relative;
     isolation: isolate;
@@ -1045,7 +1043,7 @@ margin-right: 10px;
     border: solid #28231D 2px;
     /* background: #f5f5f5;;;;; */
     background: none;
-    text-shadow: 2px 5px 4px rgb(105, 105, 105);
+    /* text-shadow: 2px 5px 4px rgb(105, 105, 105); */
     cursor: pointer;
 }
 
@@ -1056,8 +1054,8 @@ margin-right: 10px;
 .services{
     background-color: #f5f5f5;
     font-family: 'Ubuntu';
-    background: url("./images/brooke.jpg")no-repeat center;
-    background-size: cover;
+    /* background: url("./images/brooke.jpg")no-repeat center;
+    background-size: cover; */
      width: auto;
     position: relative;
     isolation: isolate;
@@ -1187,7 +1185,7 @@ bottom: 5%;
 
 
 .contact{
-    margin-top: 300px;
+    margin-top: 100px;
 }
 
 .contact_wraper{
@@ -2369,7 +2367,9 @@ bottom: 5%;
         margin-right: -90px;
     }
 
-
+    .experience{
+        height: 1000px;
+    }
     .experience .data{
         margin-left: 100px;
         margin-right: 100px;
@@ -2538,7 +2538,7 @@ bottom: 5%;
         padding-right: 5vw;
     } */
    .experience{
-    margin-top: 300px;
+    /* margin-top: 300px; */
    }
 
    .skills .skills-content {
@@ -2813,6 +2813,16 @@ bottom: 5%;
     .qualification{
         /* margin-top: 700px; */
     }
+    .experience{
+        height: 1100px;
+    }
+    .experience .container{
+      width: 80%;
+      padding-left: 35px;
+        
+    }
+   
+   
 
 }
 
@@ -2980,7 +2990,7 @@ bottom: 5%;
         }
 
         .experience{
-            margin-top: 500px;
+            /* margin-top: 500px; */
            }
         .experience .data{
             margin-top: 30px;
@@ -3116,6 +3126,12 @@ bottom: 5%;
     
        padding: 60px 0px;
       }
+
+    .experience .container{
+      width: 90%;
+      padding-left: 40px;
+        
+    }
       
       .services .data .description li{
         font-size: 0.05em;
@@ -3155,7 +3171,7 @@ bottom: 5%;
 
     .header{
       
-        height: 100vh;
+        height: 80vh;
         
     }
    
@@ -3378,4 +3394,20 @@ bottom: 5%;
         font-size: small;
 } 
            
+}
+
+
+@media (max-width: 330px){
+    .header{
+        height: 75vh;
+    }
+    .experience{
+        height: 1200px;
+    }
+    .experience .container{
+        width: 100%;
+        padding-left: 40px;
+          
+      }
+   
 }
