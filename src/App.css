@@ -194,13 +194,14 @@
     position: relative;
     isolation: isolate;
 }
-.about:after{
+.about::after{
     content: '';
     position: absolute;
     background: white;
     z-index: -1;
     inset: 0;
     opacity: .7;
+    display: table-cell;
 }
 
 
