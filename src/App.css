@@ -3043,13 +3043,15 @@ bottom: 5%;
       
        
     }
+    .services .grid{
+        height: 300px;
+    }
     .services .data .description li{
-        font-size: 0.9em;
+        font-size: 0.7em;
         /* border: solid green; */
     }
     .services .grid .img_wrapper{
         width: 80%;
-        
     }
 }
 
