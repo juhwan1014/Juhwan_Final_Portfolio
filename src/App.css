@@ -3043,11 +3043,16 @@ bottom: 5%;
       
        
     }
+    .services .project_title{
+        font-size: 0.7em;
+        margin-top: 10px;
+    }
     .services .grid{
-        height: 300px;
+        height: 270px;
     }
     .services .data .description li{
-        font-size: 0.7em;
+        font-size: 0.6em;
+        margin-left: 10px;
         /* border: solid green; */
     }
     .services .grid .img_wrapper{
