@@ -201,7 +201,7 @@
     z-index: -1;
     inset: 0;
     opacity: .7;
-    font-family: initial;
+    display: block
 }
 
 
@@ -228,7 +228,7 @@
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu';
-    border: solid green;
+    border: solid red;
 
     
 }
