@@ -201,7 +201,6 @@
     z-index: -1;
     inset: 0;
     opacity: .7;
-    display: block
 }
 
 
@@ -228,7 +227,6 @@
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu';
-    border: solid red;
 
     
 }
@@ -3144,6 +3142,13 @@ bottom: 5%;
 @media (max-width: 468px){
     .header-content{
         margin-left: -25px;
+    }
+
+    .about{
+     
+        background: none;
+        
+       
     }
 
 
