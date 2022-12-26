@@ -2816,6 +2816,15 @@ bottom: 5%;
     .experience{
         height: 1100px;
     }
+    .experience::after{
+        content: '';
+        position: absolute;
+        background: white;
+        z-index: -1;
+        inset: 0;
+        opacity: .7;
+    }
+    /* ㅁㄴㅇㅇㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁ */
     .experience .container{
       width: 80%;
       padding-left: 35px;
@@ -2989,9 +2998,7 @@ bottom: 5%;
             margin-right: -90px;
         }
 
-        .experience{
-            /* margin-top: 500px; */
-           }
+       
         .experience .data{
             margin-top: 30px;
             margin-bottom: 40px;
@@ -3127,6 +3134,14 @@ bottom: 5%;
        padding: 60px 0px;
       }
 
+      .experience::after{
+        content: '';
+        position: absolute;
+        background: white;
+        z-index: -1;
+        inset: 0;
+        opacity: .7;
+    }
     .experience .container{
       width: 90%;
       padding-left: 40px;
@@ -3384,6 +3399,14 @@ bottom: 5%;
         bottom: -7px;
         font-size: 10px;
     }
+    .experience::after{
+        content: '';
+        position: absolute;
+        background: white;
+        z-index: -1;
+        inset: 0;
+        opacity: .7;
+    }
 
 
     .qualification{
@@ -3403,6 +3426,14 @@ bottom: 5%;
     }
     .experience{
         height: 1200px;
+    }
+    .experience::after{
+        content: '';
+        position: absolute;
+        background: white;
+        z-index: -1;
+        inset: 0;
+        opacity: .7;
     }
     .experience .container{
         width: 100%;
