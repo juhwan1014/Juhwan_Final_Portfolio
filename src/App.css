@@ -3126,11 +3126,15 @@ bottom: 5%;
     .services .project_title{
         font-size: 0.7em;
         margin-top: 10px;
+        
        
     }
     .services .grid{
         height: 270px;
         width: 55%;
+    }
+    .services .data .description{
+        margin-top: 5px;
     }
     .services .data .description li{
         font-size: 0.5em;
@@ -3140,6 +3144,10 @@ bottom: 5%;
     }
     .services .grid .img_wrapper{
         width: 90%;
+    }
+    .services .project_button{
+        font-size: 6px;
+        padding: 3px 8px;
     }
 }
 
