@@ -184,7 +184,8 @@
     padding: 100px 0;
     /* font-family: 'Poppins'; */
     font-family: 'Ubuntu';
-    background: url("./images/nordwood.jpg") no-repeat center;
+    /* background: url("./images/nordwood.jpg") no-repeat center; */
+    background: url("./images/wesley.jpg")no-repeat center;
     background-size: cover;
     
     /* color: #f5f5f5; */
@@ -924,8 +925,8 @@ margin-right: 10px;
 .services{
     background-color: #f5f5f5;
     font-family: 'Ubuntu';
-    /* background: url("./images/brooke.jpg")no-repeat center;
-    background-size: cover; */
+    background: url("./images/wesley.jpg")no-repeat center;
+    background-size: cover;
      width: auto;
     position: relative;
     isolation: isolate;
@@ -939,7 +940,7 @@ margin-right: 10px;
     background: white;
     z-index: -1;
     inset: 0;
-    opacity: .5;
+    opacity: .7;
 }
 
 .services .container{
