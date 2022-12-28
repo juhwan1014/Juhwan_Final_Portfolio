@@ -2359,13 +2359,13 @@ bottom: 5%;
         height: 270px;
     }
     .services .data .description li{
-        font-size: 0.8em;
+        font-size: 0.7em;
         margin-left: 10px;
         margin-top: 15px;
         /* border: solid green; */
     }
     .services .grid .img_wrapper{
-        width: 50%;
+        width: 60%;
     }
     .services .project_button{
         font-size: 12px;
@@ -2467,6 +2467,10 @@ bottom: 5%;
    }.contact .right{
     flex-basis: 100%;
    }
+   .services .project_button{
+    font-size: 10px;
+    padding: 4px 10px;
+}
 }
 
 
@@ -2547,6 +2551,13 @@ bottom: 5%;
         margin-left: 90px;
         margin-right: 90px;
     }
+    .services .data .description li{
+        font-size: 0.6em;
+        margin-left: 10px;
+        margin-top: 15px;
+        /* border: solid green; */
+    }
+    
 
 }
 
@@ -2669,15 +2680,23 @@ bottom: 5%;
         .services .grid{
             margin-left: 40px;
             height: 270px;
+            
         }
         .services .data .description li{
             font-size: 0.6em;
             margin-left: 10px;
-            margin-top: 15px;
+            margin-top: 2px;
             /* border: solid green; */
+        }
+        .services .data .description {
+            margin-top: 10px;
         }
         .services .grid .img_wrapper{
             width: 80%;
+        }
+        .services .project_button{
+            font-size: 8px;
+            padding: 2px 8px;
         }
 }
 
@@ -2751,6 +2770,33 @@ bottom: 5%;
       width: 80%;
       padding-left: 35px;
         
+    }
+    .services .project_title{
+        font-size: 0.8em;
+        margin-top: 10px;
+       
+    }
+    .services .grid{
+        margin-left: 10px;
+        height: 270px;
+        width: 50%;
+        
+    }
+    .services .data .description li{
+        font-size: 0.6em;
+        margin-left: 10px;
+        margin-top: 2px;
+        /* border: solid green; */
+    }
+    .services .data .description {
+        margin-top: 10px;
+    }
+    .services .grid .img_wrapper{
+        width: 80%;
+    }
+    .services .project_button{
+        font-size: 8px;
+        padding: 2px 8px;
     }
    
    
@@ -2952,11 +2998,15 @@ bottom: 5%;
         .services .data .description li{
             font-size: 0.6em;
             margin-left: 10px;
-            margin-top: 15px;
+            margin-top: 2px;
             /* border: solid green; */
         }
         .services .grid .img_wrapper{
             width: 80%;
+        }
+        .services .project_button{
+            right: 2%;
+            bottom: 2%; 
         }
 }
 
@@ -3081,9 +3131,9 @@ bottom: 5%;
         height: 270px;
     }
     .services .data .description li{
-        font-size: 0.6em;
+        font-size: 0.5em;
         margin-left: 10px;
-        margin-top: 15px;
+        margin-top: 10px;
         /* border: solid green; */
     }
     .services .grid .img_wrapper{
