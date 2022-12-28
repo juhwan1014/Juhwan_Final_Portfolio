@@ -1355,7 +1355,22 @@ bottom: 5%;
         margin-left: 250px;
         margin-right: 250px;
     }
-
+    .services .grid{
+        width: 40%;
+        height: 450px;
+    }
+    .services .project_title{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .services .data .description{
+        margin-top: 20px;
+    }
+    .services .data .description li{
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
 
   }
 
@@ -1447,6 +1462,20 @@ bottom: 5%;
         cursor: pointer;
     }
 
+    .services .grid{
+        width: 40%;
+        height: 450px;
+    }
+    .services .project_title{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .services .data .description li{
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
   }
 
 
@@ -1514,6 +1543,23 @@ bottom: 5%;
         background: none;
         text-shadow: 2px 5px 4px rgb(105, 105, 105);
         cursor: pointer;
+    }
+
+    .services .grid{
+        width: 40%;
+        height: 450px;
+    }
+    .services .project_title{
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .services .data .description li{
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .services .grid .img_wrapper{
+        width: 70%;
     }
 
   }
@@ -2086,6 +2132,9 @@ bottom: 5%;
 }
 .project .arrows .arrow_right{
     margin-right: -90px;
+}
+.services .data .description li{
+    font-size: 0.8em;
 }
 .services .project_button{
     padding: 6px 18px;
