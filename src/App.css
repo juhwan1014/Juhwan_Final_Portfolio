@@ -1550,8 +1550,11 @@ bottom: 5%;
         height: 450px;
     }
     .services .project_title{
-        font-size: 35px;
-        margin-top: 10px;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .services .data .description{
+        margin-top: 50px;
     }
     .services .data .description li{
         font-size: 18px;
@@ -1724,10 +1727,13 @@ bottom: 5%;
     margin-bottom: 80px;
     margin-left: 150px;
     margin-right: 150px;
-   
-   
 }
-
+.services .data .description{
+    margin-top: 30px;
+}
+.services .project_title{
+    font-size: 25px;
+}
 }
 
 
@@ -1809,8 +1815,17 @@ bottom: 5%;
         text-shadow: 2px 5px 4px rgb(105, 105, 105);
         cursor: pointer;
     }
+    .services .project_title{
+        font-size: 22px;
+    }
     .services .grid{
-        height: 380px;
+        height: 400px;
+    }
+    .services .data .description {
+        margin-top: 15px;
+    }
+    .services .data .description li{
+        margin-bottom: 10px;
     }
 
 }
@@ -1996,10 +2011,11 @@ bottom: 5%;
 }
 
 .services .data .description li{
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .services .data .description{
+    margin-top: 30px;
     padding-right: 10px;
 }
 
@@ -2133,6 +2149,7 @@ bottom: 5%;
 .project .arrows .arrow_right{
     margin-right: -90px;
 }
+
 .services .data .description li{
     font-size: 0.8em;
 }
@@ -2305,7 +2322,7 @@ bottom: 5%;
     } */
     .services .project_title{
         font-size: 1em;
-        margin-top: 10px;
+        margin-top: 30px;
        
     }
     .services .grid{
@@ -2407,10 +2424,15 @@ bottom: 5%;
         margin-left: 20px;
         height: 270px;
     }
+    .services .data .description{
+        margin-top: 10px;
+    }
     .services .data .description li{
-        font-size: 0.7em;
+        font-size: 0.6em;
         margin-left: 10px;
-        margin-top: 15px;
+        margin-bottom: 10px;
+        
+        /* margin-top: 15px; */
         /* border: solid green; */
     }
     .services .grid .img_wrapper{
@@ -2516,6 +2538,12 @@ bottom: 5%;
    }.contact .right{
     flex-basis: 100%;
    }
+   .services .data .description li{
+    font-size: 0.6em;
+    margin-left: 10px;
+    margin-top: 15px;
+    /* border: solid green; */
+}
    .services .project_button{
     font-size: 10px;
     padding: 4px 10px;
@@ -3349,6 +3377,12 @@ bottom: 5%;
         width: 100px;
         height: 40%;
     }  
+    .services .data .description li{
+        font-size: 0.5em;
+    }
+    .services .grid{
+        width: 60%;
+    }
 }
 
 
@@ -3493,5 +3527,17 @@ bottom: 5%;
         padding-left: 40px;
           
       }
+      .services .grid{
+        width: 70%;
+      }
+      .services .data .description li{
+        margin-bottom: -5px;
+      }
    
+}
+
+@media (max-width: 290px){
+    .services .grid{
+        width: 80%;
+      }
 }
