@@ -729,8 +729,9 @@
 
 .experience .project_img {
     width: 60%;
-    /* height: 500px; */
+    height: 400px;
     /* height: 40%; */
+    /* height: 30%; */
     border-radius: .5rem;
     display: inline-block;
     border: solid #28231D 5px;
@@ -1215,7 +1216,7 @@
         font-size: 20px;
     }
     .experience .project_img {
-        height: 450px;
+       height: 400px;
     }
 
     .services .grid {
@@ -1297,6 +1298,9 @@
         text-shadow: 2px 5px 4px rgb(105, 105, 105);
         cursor: pointer;
     }
+    .experience .project_img {
+        height: 300px;
+     }
 
     .services .grid {
         width: 40%;
@@ -1514,6 +1518,7 @@
         margin-bottom: 80px;
         margin-left: 150px;
         margin-right: 150px;
+        font-size: 15px;
     }
 
     .services .data .description {
@@ -1688,7 +1693,10 @@
         margin-bottom: 80px;
         margin-left: 150px;
         margin-right: 150px;
-        font-size: 15px;
+    }
+
+    .experience .project_img {
+        height: 250px;
     }
 
     .services .data .description li {
@@ -2003,7 +2011,7 @@
     }
 
     .experience .project_img {
-        height: 350px;
+        height: 200px;
     }
 
     .services .project_title {
@@ -2215,6 +2223,9 @@
     .experience .data {
         margin-left: 90px;
         margin-right: 90px;
+    }
+    .experience .project_img {
+        height: 180px;
     }
 
     .services .data .description li {
@@ -2442,12 +2453,12 @@
         height: 1100px;
     } */
     .experience .project_img {
-        height: 250px;
+        /* height: 250px; */
     }
 
     .experience .container {
-        width: 80%;
-        padding-left: 35px;
+        /* width: 80%; */
+        /* padding-left: 35px; */
 
     }
 
@@ -2770,11 +2781,11 @@
         padding: 60px 0px;
     }
 
-    .experience .container {
+    /* .experience .container {
         width: 90%;
         padding-left: 40px;
 
-    }
+    } */
 
     .services .project_title {
         font-size: 0.8em;
@@ -2958,6 +2969,9 @@
         padding: 6px 18px;
     }
 
+    .experience .project_img {
+        height: 150px;
+    }
 
     .qualification {
         /* margin-top: 1300px; */
@@ -3013,6 +3027,7 @@
         width: 80vw;
         margin-left: -42px;
     }
+   
 }
 
 
@@ -3122,13 +3137,13 @@
         height: 75vh;
     }
 
-    .experience {
+    /* .experience {
         height: 1200px;
-    }
+    } */
 
     .experience .container {
         width: 100%;
-        padding-left: 40px;
+        padding-left: 20px;
 
     }
 
