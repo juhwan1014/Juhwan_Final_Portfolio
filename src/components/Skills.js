@@ -48,7 +48,7 @@ class Skills extends Component {
                     <div className="bars">
                         <div className="info">
                             <span>CSS</span>
-                            <span>70%</span>
+                            <span>90%</span>
                         </div>
                         <div className="line css">
                         </div>

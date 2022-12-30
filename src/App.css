@@ -607,7 +607,7 @@
 }
 
 .skills-content .right .css::before {
-    width: 70%;
+    width: 90%;
 }
 
 .skills-content .right .js::before {
@@ -639,7 +639,8 @@
     /* margin-top: 50px; */
     padding-bottom: 100px;
     overflow-x: hidden;
-    height: 900px;
+    /* height: 900px; */
+    height: 100%;
     overflow-y: hidden;
     background: url("./images/coffeeleaf.jpg")no-repeat center;
     background-size: cover;
@@ -722,12 +723,14 @@
 
 .experience .img_wrapper {
     text-align: center;
+    /* height: 50%; */
+   
 }
 
 .experience .project_img {
-   
     width: 60%;
-    height: 250px;
+    /* height: 500px; */
+    /* height: 40%; */
     border-radius: .5rem;
     display: inline-block;
     border: solid #28231D 5px;
@@ -1209,6 +1212,10 @@
         margin-bottom: 80px;
         margin-left: 250px;
         margin-right: 250px;
+        font-size: 20px;
+    }
+    .experience .project_img {
+        height: 450px;
     }
 
     .services .grid {
@@ -1681,8 +1688,7 @@
         margin-bottom: 80px;
         margin-left: 150px;
         margin-right: 150px;
-
-
+        font-size: 15px;
     }
 
     .services .data .description li {
@@ -1879,9 +1885,9 @@
         margin-right: -90px;
     }
 
-    .experience {
+    /* .experience {
         height: 1000px;
-    }
+    } */
 
     .experience .data {
         margin-left: 100px;
@@ -1996,6 +2002,10 @@
         font-size: 14px;
     }
 
+    .experience .project_img {
+        height: 350px;
+    }
+
     .services .project_title {
         font-size: 1em;
         margin-top: 10px;
@@ -2097,6 +2107,9 @@
     } */
     .experience {
         /* margin-top: 300px; */
+    }
+    .experience .data {
+        font-size: 12px;
     }
 
     .skills .skills-content {
@@ -2425,8 +2438,11 @@
         /* margin-top: 700px; */
     }
 
-    .experience {
+    /* .experience {
         height: 1100px;
+    } */
+    .experience .project_img {
+        height: 250px;
     }
 
     .experience .container {
