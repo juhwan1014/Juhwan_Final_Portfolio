@@ -2561,12 +2561,10 @@
         cursor: pointer;
     }
 
-    .navbar.navColor .menu li a {
+    .navbar .menu li a{
         font-size: 13px;
     }
-    .navbar .menu li a:hover {
-        font-size: 13px;
-    }
+    
 
     .about .about-content .right {
         padding-left: 0;
