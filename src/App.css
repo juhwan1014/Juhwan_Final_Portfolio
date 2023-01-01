@@ -109,6 +109,8 @@
 
 .navbar .menu li a:hover {
     font-size: 20px;
+   
+    
 }
 
 /*menu button styling*/
@@ -2557,6 +2559,13 @@
         background: none;
         text-shadow: 2px 5px 4px rgb(105, 105, 105);
         cursor: pointer;
+    }
+
+    .navbar.navColor .menu li a {
+        font-size: 13px;
+    }
+    .navbar .menu li a:hover {
+        font-size: 13px;
     }
 
     .about .about-content .right {
