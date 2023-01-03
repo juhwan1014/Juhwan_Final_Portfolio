@@ -9,16 +9,16 @@ import "aos/dist/aos.css";
 
 
 class Qualification extends Component {
-    
+
     componentDidMount() {
         Aos.init({ duration: 2000 });
-      }
+    }
 
-    
+
     render() {
-        
 
-        
+
+
         return (<div className='qualification'>
 
             <h2 className="title">Qualification</h2>
@@ -26,14 +26,12 @@ class Qualification extends Component {
             <div data-aos="zoom-in-up" className="container">
                 <div className="tabs">
                     <div className="button--flex qualification__active" data-target="#education">
-                        {/* <i className="uil uil-graduation-cap qualification__icon"></i> */}
-                        <FontAwesomeIcon icon={faGraduationCap} className="icon"/>
+                        <FontAwesomeIcon icon={faGraduationCap} className="icon" />
                         Education
                     </div>
 
                     <div className="button--flex" data-target="#work">
-                        {/* <i className="uil uil-briefcase-alt qualification__icon"></i> */}
-                        <FontAwesomeIcon icon={faBriefcase} className="icon"/>
+                        <FontAwesomeIcon icon={faBriefcase} className="icon" />
                         Work
                     </div>
 
@@ -73,20 +71,20 @@ class Qualification extends Component {
                                 <h3 className="quali_title">Math Tutor</h3>
                                 <span className="quali_subtitle">South Korea</span>
                                 <div className="calendar">
-                                    <FontAwesomeIcon icon={faCalendarAlt} className="cal_icon"/>
+                                    <FontAwesomeIcon icon={faCalendarAlt} className="cal_icon" />
                                     2015.Mar - 2016.Apr
                                 </div>
                             </div>
 
                         </div>
-                    
+
                         {/* =====================Content Data 3====================== */}
                         <div className="content_data">
                             <div className="content_data_left">
                                 <h3 className="quali_title">Software Systems Developer (Web Developer Course)</h3>
                                 <span className="quali_subtitle">BCIT (British Columbia Institute of Technology)</span>
                                 <div className="calendar">
-                                    <FontAwesomeIcon icon={faCalendarAlt} className="cal_icon"/>
+                                    <FontAwesomeIcon icon={faCalendarAlt} className="cal_icon" />
                                     2020.Sep - 2021.May
                                 </div>
                             </div>
@@ -104,7 +102,6 @@ class Qualification extends Component {
 
                             <div>
                                 <span className="rounder"><div className='year2'>2022</div></span>
-                                {/* <span className="line"></span> */}
                             </div>
 
                             <div className="content_data_right">
@@ -181,7 +178,6 @@ class Qualification extends Component {
 
                             <div>
                                 <span className="rounder"></span>
-                                {/* <span className="line"></span> */}
                             </div>
 
                             <div>
