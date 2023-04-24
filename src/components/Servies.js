@@ -7,6 +7,7 @@ import fitness from '../images/muscle.jpg'
 import nowflix from '../images/nowflix.png'
 import stock from '../images/stock_app.png'
 import parlez from '../images/PARLEZ.png'
+import tetris from '../images/tetris.png'
 import SwiperCore, { EffectCoverflow, Pagination } from "swiper";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
@@ -62,6 +63,26 @@ class Services extends Component {
                             <li>On going personal project</li>
                         </ul></p>
                         <a href="https://github.com/juhwan1014/Fitness_Helper_App" className="project_button">
+                            Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right" />
+                        </a>
+                    </div>
+                </SwiperSlide>
+
+
+
+                <SwiperSlide className="grid">
+                    <div className='img_wrapper'>
+                        <img src={tetris} alt="" className="project_img"></img>
+                    </div>
+
+                    <div className="data">
+                        <h3 className="project_title">Tetris_JavaScript</h3>
+                        <p className="description"><ul>
+                            <li>Personal project</li>
+                            <li>JavaScript-based game programming</li>
+                            <li>Understanding of basic JavaScript syntax and the interaction of various functions</li>
+                        </ul></p>
+                        <a href="https://github.com/juhwan1014/Tetris_Javascript" className="project_button">
                             Detail  <FontAwesomeIcon icon={faChevronRight} className="arrow_right" />
                         </a>
                     </div>
